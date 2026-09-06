@@ -1,0 +1,5 @@
+# Copy to paths.local.yaml (ignored by Git) or use environment variables.
+dataset_root: /path/to/soil_data_set
+checkpoint_root: /path/to/checkpoints
+legacy_root: /path/to/pinned/legacy/checkout
+run_artifact_root: /path/to/external/soilnet_final_runs

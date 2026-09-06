@@ -1,0 +1,53 @@
+{
+  "change_policy": "Resolve data conflicts with evidence, create a new experiment ID, then generate and lock new manifest/split/config artifacts before training.",
+  "code_sha256": {
+    "dataset": "77211b34196908eb2a064e6df174983ea59eeafde80e19ef74d5148e31b44646",
+    "firewall": "509a1be7cfa44a2ac40e940d50db3ddaedf2fd140b0e1d8ab0d9e91ab1b0575e",
+    "metrics": "c0e9a51e9d9d2c45c4841ec252bd8ecf97bbea63139b126561308b460b2419c2",
+    "model": "f881aa31dcb0dd12f2b49e6add8afabd3b16fc783236abbfe8d57c7642589d36",
+    "test_entrypoint": "65e76d9cf86b3a0e46924245f544b698235c8c5415ccf76b0210cfba308ef625",
+    "train_entrypoint": "494e85a7c351bfd52dafb146cf5544b6e708fde2b7f11ba58f0832b2ba76c921"
+  },
+  "config_sha256": "40351a9404fcef3a1ba5730c95df2d69b08a880c75ff3e23c55a8097d0e96dd3",
+  "conflicting_exact_duplicate_groups": 46,
+  "dataset_manifest_sha256": "NOT_GENERATED_BLOCKED_DATA_CONFLICT",
+  "deterministic_settings": {
+    "PYTHONHASHSEED": "20260905",
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "torch_manual_seed": 20260905,
+    "torch_use_deterministic_algorithms": true
+  },
+  "dry_run_status": "PASS",
+  "duplicate_consistency_sha256": "33605f630655f3cdbf1e9c903fa61ec61e4ced9fc7cc65862f9c2f0d87590f6b",
+  "experiment_id": "FINAL_LEAKAGE_CONTROLLED_REVALIDATION",
+  "git_commit": "UNCOMMITTED",
+  "gpu_gate": "GPU_BLOCKED",
+  "lock_state": "INACTIVE_BLOCKED_DATA_CONFLICT",
+  "python": "3.11.15",
+  "pytorch": "2.6.0+cu118",
+  "seed": 20260905,
+  "source_labeled_manifest_sha256": "8eb25deb0d2b2f59ff416e89d35b9908076dfd0d369669019e894f0327afd025",
+  "split_manifest_sha256": "NOT_GENERATED_BLOCKED_DATA_CONFLICT",
+  "ssl_checkpoint_relative_path": "checkpoints_VicReg_original_NEW/vicreg_model_final_mu_27.0.pth",
+  "ssl_checkpoint_scope": "CHECKPOINT_ROOT",
+  "ssl_checkpoint_sha256": "42599ac025b8d8c8c5b8cca36624665f155e0ff588cd90de2fd47b08cd2d60d8",
+  "ssl_lineage_checks": {
+    "canonical_compatibility_adapter": {
+      "canonical_keys": 577,
+      "legacy_keys": 846,
+      "verified_alias_keys_removed": 269,
+      "verified_stage_alias_pairs": 261
+    },
+    "epoch": 80,
+    "epoch80_checkpoint_sha256": "c0caf6a846835692377590bebfdcfd04edcfaebda3f8380d00903f7990b495de",
+    "epoch80_metric_matches_csv": true,
+    "final_equals_epoch80_model_state": true,
+    "legacy_and_data_notebook_sha_match": true,
+    "metric_rows": 80,
+    "metrics_sha256": "ba2f9d0db2d6cd5e6ff521178e4fef1c3070635fd0472cb4e76cee14e3b44569",
+    "notebook_sha256": "3f2fa4044391427069d3b61f9990a428f76676aa0878f7e65141352bd8e56e80"
+  },
+  "timm": "1.0.29",
+  "training_allowed": false
+}

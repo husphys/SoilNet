@@ -1,0 +1,24 @@
+{
+  "backward_gradients_present": true,
+  "checkpoint_normalization": {
+    "canonical_keys": 577,
+    "legacy_keys": 846,
+    "verified_alias_keys_removed": 269,
+    "verified_stage_alias_pairs": 261
+  },
+  "checkpoint_safe_roundtrip": true,
+  "classification_metric_function_exercised": true,
+  "device": "cpu",
+  "forward_batch_size": 2,
+  "forward_pass": true,
+  "loss_finite": true,
+  "metric_values_recorded": false,
+  "prospective_test_split_used": false,
+  "regression_metric_function_exercised": true,
+  "samples_loaded": 8,
+  "scope": "ENGINEERING_DRY_RUN_ONLY_NOT_A_RESEARCH_RESULT",
+  "source_manifest_rows": 2057,
+  "status": "PASS",
+  "temporary_checkpoint_deleted": true,
+  "training_run": false
+}

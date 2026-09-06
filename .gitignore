@@ -1,0 +1,22 @@
+# Local paths and secrets
+config/paths.local.yaml
+.env
+*.key
+
+# Python/Jupyter
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# Local data and large checkpoints
+data/raw/
+checkpoints/*.pth
+checkpoints/**/*.pth
+!checkpoints/deployment/
+!checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth
+*.tmp
+
+# Audit caches are local; final CSV/JSON reports remain tracked.
+results/audit/.cache/

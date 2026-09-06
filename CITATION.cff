@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility repository, cite the SoilNet paper and this repository."
+title: "SoilNet scientific reproducibility repository"
+type: software
+authors:
+  - name: "SoilNet contributors"
+repository-code: "https://github.com/husphys-gif/SoilNet"
+license: MIT
+version: 0.1.0

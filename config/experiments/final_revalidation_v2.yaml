@@ -1,0 +1,92 @@
+experiment_id: FINAL_LEAKAGE_CONTROLLED_REVALIDATION_QC_EXCLUSION_V2
+protocol_status: READY_TO_RUN_FINAL_REVALIDATION
+training_allowed: true
+preselection:
+  status: PRESELECTION_RESOLVED_FROM_HISTORICAL_MANUSCRIPT
+  selection_source: historical_manuscript
+  selection_time_relation: before prospective_split_evaluation
+  prospective_metrics_consulted: false
+  architecture: SoilNet
+  ssl_method: VICReg
+  imagenet_initialization: true
+  mu: 27
+initialization:
+  scope: CHECKPOINT_ROOT
+  relative_path: checkpoints_VicReg_original_NEW/vicreg_model_final_mu_27.0.pth
+  sha256: 42599ac025b8d8c8c5b8cca36624665f155e0ff588cd90de2fd47b08cd2d60d8
+  lineage_status: VERIFIED_LINEAGE
+  checkpoint_load_policy: all_577_canonical_keys_strict_after_verified_alias_removal
+  head_initialization_note: regression_classification_and_light_weights_are_loaded_from_the_historical_state
+  ssl_pretraining_data: SOIL_IMAGES_UNLABELED
+  protocol_disclosure: TRANSDUCTIVE_PRETRAINING
+data:
+  historical_labeled_records: 2057
+  exclusion_policy: EXACT_DUPLICATE_CONFLICT_EXCLUSION
+  excluded_conflicting_duplicate_records: 130
+  final_clean_labeled_images: 1927
+  data_qc_policy: results/audit/final_data_qc_policy.json
+  exclusion_manifest: data/manifests/excluded_conflicting_duplicates_v1.csv
+  final_clean_manifest: data/manifests/final_clean_manifest_v1.csv
+  final_split_manifest: data/splits/final_clean_split_v1.csv
+split:
+  seed: 20260905
+  target_ratios:
+    train: 0.73
+    validation: 0.15
+    test: 0.12
+  grouping: exact_sha256_plus_locked_dhash_connected_components_plus_documented_source_or_session
+  near_duplicate_policy: 64_bit_difference_hash_hamming_distance_lte_5_connected_components
+  capture_session_policy: preserve_documented_identifiers_only_do_not_infer_from_filenames
+  source_group_policy: preserve_documented_identifiers_only
+  assignment: deterministic_group_count_balancing_without_model_metrics
+  metric_free_assignment: true
+  regenerate_after_training_starts: false
+model:
+  regression_heads: [SM_0, SM_20]
+  classification_head: moisture_class
+  num_classes: 10
+  light_branch: true
+  regression_output_dimension: 2
+training:
+  epochs: 15
+  primary_checkpoint: epoch_15_final
+  secondary_validation_best_checkpoint: disabled
+  batch_size: 32
+  learning_rate: 0.0005
+  optimizer: Adam
+  weight_decay: 0.0
+  weight_decay_source: historical_mu27_code_Adam_default
+  regression_loss: MSELoss
+  classification_loss: CrossEntropyLoss
+  regression_loss_weight: 1.0
+  classification_loss_weight: 1.0
+  total_loss: regression_loss_plus_classification_loss
+  loss_weight_source: historical_mu27_code
+input:
+  image_size: [224, 224]
+  image_normalization_mean: [0.485, 0.456, 0.406]
+  image_normalization_std: [0.229, 0.224, 0.225]
+  light_internal_scale: divide_by_100
+  regression_target_internal_scale: divide_by_100
+metrics:
+  regression: [RMSE, MAE, R2, ME]
+  classification: [Accuracy, Macro-F1, Macro-Precision, Macro-Recall, confusion_matrix]
+  regression_report_scale: percentage_points_0_to_100
+  classification_report_scale: ratio_0_to_1
+test_firewall:
+  test_loader_in_training: false
+  test_metrics_during_training: false
+  final_test_command_separate: true
+  evaluate_test_exactly_once: true
+  completion_marker: results/final/test_evaluation_completed.json
+  phase3b_test_loader_used: false
+  phase3b_test_metrics_read: false
+reproducibility:
+  seed: 20260905
+  pythonhashseed: 20260905
+  cudnn_benchmark: false
+  cudnn_deterministic: true
+  deterministic_algorithms: true
+runtime_gate:
+  gpu_status: GPU_BLOCKED
+  require_cuda_for_training: true

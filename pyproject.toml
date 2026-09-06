@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soilnet-reproducibility"
+version = "0.1.0"
+description = "Evidence-first reproducibility tooling for SoilNet"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy",
+  "pandas",
+  "Pillow",
+  "PyYAML",
+  "scikit-learn",
+  "timm",
+  "torch",
+  "torchvision",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

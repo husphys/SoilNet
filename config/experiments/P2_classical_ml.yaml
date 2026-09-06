@@ -1,0 +1,50 @@
+experiment_id: P2_CLASSICAL_ML
+experiment_kind: classical_ml
+protocol_status: OPTIONAL
+scientific_question: How do fixed classical classifiers and regressors perform on frozen verified VICReg mu=27 SoilNet embeddings?
+architecture: SoilNet
+timm_model_name: null
+initialization: imagenet_then_vicreg
+ssl_checkpoint:
+  scope: CHECKPOINT_ROOT
+  relative_path: checkpoints_VicReg_original_NEW/vicreg_model_final_mu_27.0.pth
+  sha256: 42599ac025b8d8c8c5b8cca36624665f155e0ff588cd90de2fd47b08cd2d60d8
+  lineage: VERIFIED_LINEAGE
+use_li: true
+li_ablation_strategy: null
+num_classes: 10
+class_mapping: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+dataset_manifest: data/manifests/final_clean_manifest_v1.csv
+dataset_manifest_sha256: 8ff45054d4b8e3df9758d0c112dc16719572b2267906fb3a5ed5b3262a6732bd
+split: data/splits/final_clean_split_v1.csv
+split_sha256: 8927b8223b8c4c234d264ad9ea62ac2df6161124a79787a2e71eeb5cd23eae2f
+seed: 20260905
+epochs: 0
+batch_size: 32
+optimizer: not_applicable_frozen_features
+learning_rate: 0.0
+weight_decay: 0.0
+loss: {classification: estimator_specific, regression: estimator_specific_separate_targets}
+metrics: {regression: [RMSE, MAE, R2, ME], classification: [Accuracy, Macro-F1, Macro-Precision, Macro-Recall]}
+image_size: [224, 224]
+normalization_mean: [0.485, 0.456, 0.406]
+normalization_std: [0.229, 0.224, 0.225]
+train_augmentation: deterministic_resize_only_historical_evidence
+validation_transform: deterministic
+use_amp: false
+num_workers: 0
+output_dir: P2_CLASSICAL_ML
+test_evaluation: prohibited_in_model_selection_notebook
+model_selection: fixed_hyperparameters_no_grid_search
+classifiers:
+  KNN: {n_neighbors: 5, weights: uniform, provenance: predeclared_default_no_historical_value}
+  SVM: {kernel: rbf, C: 1.0, gamma: scale, class_weight: balanced, probability: true, provenance: historical_code}
+  GBM: {n_estimators: 100, learning_rate: 0.1, max_depth: 3, provenance: historical_code}
+  DT: {parameters: sklearn_defaults_plus_locked_seed, provenance: predeclared_default_no_historical_value}
+  MLP: {hidden_layer_sizes: [100], alpha: 0.0001, max_iter: 500, provenance: predeclared_default_no_historical_value}
+regressors:
+  KNN: {n_neighbors: 5, weights: uniform, provenance: predeclared_default_no_historical_value}
+  SVM: {kernel: rbf, C: 1.0, gamma: scale, epsilon: 0.1, provenance: historical_code}
+  GBM: {n_estimators: 100, learning_rate: 0.1, max_depth: 3, provenance: historical_code}
+  DT: {parameters: sklearn_defaults_plus_locked_seed, provenance: predeclared_default_no_historical_value}
+  MLP: {hidden_layer_sizes: [100], alpha: 0.0001, max_iter: 500, provenance: predeclared_default_no_historical_value}

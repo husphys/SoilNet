@@ -1,0 +1,11 @@
+{
+  "configs_checked": 8,
+  "errors": [],
+  "gpu_diagnostic_cells_executed": 4,
+  "gpu_notebook_execution_status": "PASS",
+  "notebook_cells_executed": 4,
+  "notebooks_checked": 11,
+  "status": "PASS",
+  "test_loader_instantiated": false,
+  "training_notebook_cells_executed": 0
+}

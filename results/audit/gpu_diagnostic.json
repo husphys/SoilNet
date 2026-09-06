@@ -1,0 +1,18 @@
+{
+  "captured_utc": "2026-09-05T11:37:54.454447+00:00",
+  "cuda_tensor_error": "",
+  "cuda_tensor_matmul_smoke": false,
+  "nvidia_smi_command": [
+    "/usr/lib/wsl/lib/nvidia-smi"
+  ],
+  "nvidia_smi_exists_in_wsl_lib": true,
+  "nvidia_smi_exit_code": 255,
+  "nvidia_smi_output": "Failed to initialize NVML: GPU access blocked by the operating system\nFailed to properly shut down NVML: GPU access blocked by the operating system",
+  "nvml_available": false,
+  "status": "CUDA_UNAVAILABLE",
+  "torch_cuda_available": false,
+  "torch_cuda_device_count": 0,
+  "torch_cuda_device_name_0": "UNAVAILABLE",
+  "torch_cuda_runtime": "11.8",
+  "torch_version": "2.6.0+cu118"
+}

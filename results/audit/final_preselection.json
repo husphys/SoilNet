@@ -1,0 +1,12 @@
+{
+  "architecture": "SoilNet",
+  "architecture_detail": "modified MobileViTV2 + MobileNetV2 components + light-intensity input",
+  "imagenet_initialization": true,
+  "mu": 27,
+  "prospective_metrics_consulted": false,
+  "selection_source": "historical_manuscript",
+  "selection_source_availability": "USER_SUPPLIED_PHASE3A_ASSERTION; manuscript file not present in audited repository",
+  "selection_time_relation": "before prospective split evaluation",
+  "ssl_method": "VICReg",
+  "status": "PRESELECTION_RESOLVED_FROM_HISTORICAL_MANUSCRIPT"
+}

@@ -1,0 +1,12 @@
+{
+  "checkpoint_root": 969,
+  "confirmed_unseen_labeled": 0,
+  "data_root_embedded": 108,
+  "data_root_finetuned_soilnet": 30,
+  "decision": "READY_AFTER_ONE_SHORT_FINETUNE",
+  "labeled_exact_unique": 1973,
+  "labeled_rows": 2057,
+  "legacy_github": 10,
+  "training_run": false,
+  "valid_historical_heldout": 0
+}

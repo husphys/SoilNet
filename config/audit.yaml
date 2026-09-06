@@ -1,0 +1,7 @@
+seed: 20260905
+split:
+  train: 0.70
+  validation: 0.15
+  test: 0.15
+near_duplicate_hamming_threshold: 5
+legacy_commit: 312c0a44605de87d31b6c52627cd91b07a4d1f75

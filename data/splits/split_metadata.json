@@ -1,0 +1,13 @@
+{
+  "capture_session_limitation": "No documented session/location identifier was found in labels.csv. Filename timestamps were not converted into session IDs because that would be an unsupported assumption.",
+  "grouping": "Exact SHA256 plus 64-bit difference-hash distance <= threshold.",
+  "groups_crossing_splits": 0,
+  "intended_use": "Prospective reruns only. This is not an independent test for checkpoints trained on the historical 2057 rows.",
+  "ratios": {
+    "test": 0.15,
+    "train": 0.7,
+    "validation": 0.15
+  },
+  "seed": 20260905,
+  "strategy": "stable SHA256 assignment of exact/near-duplicate connected components"
+}

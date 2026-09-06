@@ -1,0 +1,29 @@
+{
+  "checkpoint_root_categories": {
+    "BASELINE_CLASSIFIER": 3,
+    "FULL_TRAINING_STATE": 300,
+    "PARTIAL_STATE": 652,
+    "SSL_BACKBONE": 7,
+    "VICREG_PROJECTOR": 7
+  },
+  "checkpoint_root_files": 969,
+  "checkpoint_scalar_count_hits": {},
+  "cross_scope_unique_sha256": 1077,
+  "data_root_categories": {
+    "FINETUNED_SOILNET_DUALHEAD": 30,
+    "FULL_TRAINING_STATE": 4,
+    "PARTIAL_STATE": 32,
+    "SSL_BACKBONE": 16,
+    "UNKNOWN": 2,
+    "UNREADABLE": 8,
+    "VICREG_PROJECTOR": 16
+  },
+  "data_root_duplicates_with_checkpoint_root": 0,
+  "data_root_duplicates_with_legacy_github": 4,
+  "data_root_embedded_files": 108,
+  "data_root_internal_redundant_files": 1,
+  "data_root_light_branch": 51,
+  "data_root_reg_and_cls_heads": 51,
+  "data_root_unique_sha256": 107,
+  "legacy_github_files": 10
+}

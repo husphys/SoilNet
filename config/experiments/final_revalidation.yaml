@@ -1,0 +1,86 @@
+experiment_id: FINAL_LEAKAGE_CONTROLLED_REVALIDATION
+protocol_status: BLOCKED_DATA_CONFLICT
+training_allowed: false
+preselection:
+  status: PRESELECTION_RESOLVED_FROM_HISTORICAL_MANUSCRIPT
+  selection_source: historical_manuscript
+  selection_time_relation: before prospective split evaluation
+  prospective_metrics_consulted: false
+  architecture: SoilNet
+  ssl_method: VICReg
+  imagenet_initialization: true
+  mu: 27
+initialization:
+  scope: CHECKPOINT_ROOT
+  relative_path: checkpoints_VicReg_original_NEW/vicreg_model_final_mu_27.0.pth
+  sha256: 42599ac025b8d8c8c5b8cca36624665f155e0ff588cd90de2fd47b08cd2d60d8
+  lineage_status: VERIFIED_LINEAGE
+  checkpoint_load_policy: all_577_canonical_keys_strict_after_verified_alias_removal
+  head_initialization_note: regression_classification_and_light_weights_are_loaded_from_the_historical_state
+  ssl_pretraining_data: SOIL_IMAGES_UNLABELED
+  protocol_disclosure: TRANSDUCTIVE_PRETRAINING
+data:
+  historical_labeled_records: 2057
+  expected_sha256_unique_images: 1973
+  exact_duplicate_groups: 46
+  conflicting_exact_duplicate_groups: 46
+  final_unique_manifest: null
+  final_unique_manifest_status: NOT_GENERATED_BLOCKED_DATA_CONFLICT
+  final_split_manifest: null
+  final_split_status: NOT_GENERATED_BLOCKED_DATA_CONFLICT
+  representative_rule: lexicographically_first_normalized_relative_path
+split:
+  seed: 20260905
+  target_ratios:
+    train: 0.73
+    validation: 0.15
+    test: 0.12
+  grouping: exact_sha256_plus_near_duplicate_connected_components_plus_documented_source_or_session
+  metric_free_assignment: true
+model:
+  regression_heads: [SM_0, SM_20]
+  classification_head: moisture_class
+  num_classes: 10
+  light_branch: true
+  regression_output_dimension: 2
+training:
+  epochs: 15
+  primary_checkpoint: epoch_15_final
+  secondary_validation_best_checkpoint: disabled
+  batch_size: 32
+  learning_rate: 0.0005
+  optimizer: Adam
+  weight_decay: 0.0
+  weight_decay_source: historical_mu27_code_Adam_default
+  regression_loss: MSELoss
+  classification_loss: CrossEntropyLoss
+  regression_loss_weight: 1.0
+  classification_loss_weight: 1.0
+  total_loss: regression_loss_plus_classification_loss
+  loss_weight_source: historical_mu27_code
+input:
+  image_size: [224, 224]
+  image_normalization_mean: [0.485, 0.456, 0.406]
+  image_normalization_std: [0.229, 0.224, 0.225]
+  light_internal_scale: divide_by_100
+  regression_target_internal_scale: divide_by_100
+metrics:
+  regression: [RMSE, MAE, R2, ME]
+  classification: [Accuracy, Macro-F1, Macro-Precision, Macro-Recall, confusion_matrix]
+  regression_report_scale: percentage_points_0_to_100
+  classification_report_scale: ratio_0_to_1
+test_firewall:
+  test_loader_in_training: false
+  test_metrics_during_training: false
+  final_test_command_separate: true
+  evaluate_test_exactly_once: true
+  completion_marker: results/final/test_evaluation_completed.json
+reproducibility:
+  seed: 20260905
+  pythonhashseed: 20260905
+  cudnn_benchmark: false
+  cudnn_deterministic: true
+  deterministic_algorithms: true
+runtime_gate:
+  gpu_status: GPU_BLOCKED
+  require_cuda_for_training: true

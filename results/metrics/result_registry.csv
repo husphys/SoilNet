@@ -1,0 +1,4 @@
+result_id,task,scope,status,metrics_csv,metadata_json,required_action
+FINETUNE_FINAL_REGRESSION,SM_0_SM_20,held_out,NEED_REEVALUATION,MISSING,MISSING,Reevaluate a verified checkpoint on proven unseen data or run one selected group-split fine-tune
+FINETUNE_FINAL_CLASSIFICATION,moisture_class,held_out,NEED_REEVALUATION,MISSING,MISSING,Reevaluate a verified checkpoint on proven unseen data or run one selected group-split fine-tune
+CLASSICAL_MODELS,moisture_class,held_out,NEED_REEVALUATION,MISSING,MISSING,Recompute from verified frozen embeddings if available

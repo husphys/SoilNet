@@ -1,0 +1,65 @@
+{
+  "code_sha256": {
+    "scripts/evaluate_final_test.py": "815e6a7de3cc35e0dad55262a7e7e8a6667499d00f2acc1fbcadcb7303df2579",
+    "scripts/phase3b_data_readiness.py": "438b94cab1193fbd147a42c27b38c4eedd2429fb808157d644d35c91d041189b",
+    "scripts/train_final_revalidation.py": "853bbed13fd1626d0c8d67e19b1a31e67c897b5a8539d9b4442feb0c0a25e304",
+    "src/soilnet/data/dataset.py": "77211b34196908eb2a064e6df174983ea59eeafde80e19ef74d5148e31b44646",
+    "src/soilnet/final_protocol.py": "3bd88dc309b50f34e0763744a042956dd66209fca3203f5cfeac38e5cba93fc7",
+    "src/soilnet/models/soilnet.py": "f881aa31dcb0dd12f2b49e6add8afabd3b16fc783236abbfe8d57c7642589d36"
+  },
+  "config_relative_path": "config/experiments/final_revalidation_v2.yaml",
+  "config_sha256": "2aaff2771ace32c8c3615df153b606b6444e4903e23482bccd7474ee4f6deefb",
+  "conflicting_exact_duplicate_groups": 46,
+  "current_execution_status": "BLOCKED_GPU_ONLY",
+  "data_qc_policy_sha256": "d4b675cebb11d5e1f2cfad67414621934adc18ca44ab7de2017924354e095ee7",
+  "environment_versions": {
+    "Pillow": "12.3.0",
+    "PyYAML": "6.0.3",
+    "numpy": "2.4.6",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.11.15",
+    "torch": "2.6.0+cu118",
+    "torchvision": "0.21.0+cu118"
+  },
+  "excluded_records": 130,
+  "exclusion_manifest_sha256": "a0221cc13bf574b7cee96f4f84702daab66df2a0e325711b760a9879dfbec992",
+  "experiment_id": "FINAL_LEAKAGE_CONTROLLED_REVALIDATION_QC_EXCLUSION_V2",
+  "final_clean_manifest_sha256": "8ff45054d4b8e3df9758d0c112dc16719572b2267906fb3a5ed5b3262a6732bd",
+  "final_clean_records": 1927,
+  "final_images_readable_and_sha_verified": 1927,
+  "final_split_sha256": "8927b8223b8c4c234d264ad9ea62ac2df6161124a79787a2e71eeb5cd23eae2f",
+  "git_commit": "UNCOMMITTED",
+  "git_state_policy": "exact_content_hashes_when_no_commit_exists",
+  "gpu_diagnostic_status": "CUDA_UNAVAILABLE",
+  "historical_labeled_records": 2057,
+  "leakage_checks": {
+    "documented_capture_session_group_cross_split": 0,
+    "documented_source_group_cross_split": 0,
+    "exact_sha_cross_split": 0,
+    "group_cross_split": 0,
+    "near_duplicate_group_cross_split": 0,
+    "sample_id_cross_split": 0
+  },
+  "light_value_conflict_groups": 43,
+  "lock_revision": 2,
+  "lock_state": "ACTIVE",
+  "moisture_class_conflict_groups": 38,
+  "seed": 20260905,
+  "split_counts": {
+    "test": 231,
+    "train": 1407,
+    "validation": 289
+  },
+  "ssl_checkpoint_relative_path": "checkpoints_VicReg_original_NEW/vicreg_model_final_mu_27.0.pth",
+  "ssl_checkpoint_scope": "CHECKPOINT_ROOT",
+  "ssl_checkpoint_sha256": "42599ac025b8d8c8c5b8cca36624665f155e0ff588cd90de2fd47b08cd2d60d8",
+  "ssl_lineage": "VERIFIED_LINEAGE",
+  "target_ratios": {
+    "test": 0.12,
+    "train": 0.73,
+    "validation": 0.15
+  },
+  "test_loader_used_in_phase3b": false,
+  "test_metrics_read_or_computed_in_phase3b": false,
+  "training_allowed_by_protocol": true
+}

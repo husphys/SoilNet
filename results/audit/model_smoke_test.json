@@ -1,0 +1,39 @@
+{
+  "SoilNetDualHead": {
+    "constructed": true,
+    "input_shapes": {
+      "image": [
+        1,
+        3,
+        224,
+        224
+      ],
+      "light": [
+        1,
+        1
+      ]
+    },
+    "output_shapes": {
+      "classification": [
+        1,
+        10
+      ],
+      "regression": [
+        1,
+        2
+      ]
+    },
+    "parameter_count": 3682133,
+    "pretrained_weights_downloaded": false
+  },
+  "mobilenetv2_100.ra_in1k": {
+    "constructed": true,
+    "parameter_count": 3504872,
+    "pretrained_weights_downloaded": false
+  },
+  "mobilevitv2_050": {
+    "constructed": true,
+    "parameter_count": 1370593,
+    "pretrained_weights_downloaded": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "created_before_model_training": true,
+  "created_before_prospective_test_evaluation": true,
+  "decision_fields": [
+    "SM_0",
+    "SM_20"
+  ],
+  "dynamically_verified_conflict_groups": 46,
+  "dynamically_verified_excluded_records": 130,
+  "dynamically_verified_light_value_conflict_groups": 43,
+  "dynamically_verified_moisture_class_conflict_groups": 38,
+  "label_adjudication": false,
+  "majority_vote": false,
+  "model_assisted_cleaning": false,
+  "near_duplicate_handling": "retain_samples_and_apply_locked_group_split_firewall",
+  "perceptual_similarity_used_for_exclusion": false,
+  "policy_name": "EXACT_DUPLICATE_CONFLICT_EXCLUSION",
+  "representative_retained_from_conflict_group": false,
+  "rule": "Exclude every record in an exact-SHA256 group if SM_0 or SM_20 differs within that group.",
+  "scope": "all_historical_labeled_records",
+  "target_averaging": false
+}

@@ -1,0 +1,16 @@
+{
+  "counts_by_type": {
+    "csv": 17,
+    "ipynb": 47,
+    "pth": 10,
+    "py": 2,
+    "xlsx": 1
+  },
+  "files_with_random_choice": 40,
+  "files_with_seed": 0,
+  "inventory_count": 77,
+  "legacy_commit": "312c0a44605de87d31b6c52627cd91b07a4d1f75",
+  "notebooks_or_scripts": 49,
+  "path_reference_count": 419,
+  "training_set_metrics_only_files": 42
+}

@@ -1,0 +1,9 @@
+*.pth filter=lfs diff=lfs merge=lfs -text
+# The one 44.9 MB deployment checkpoint is intentionally stored directly in
+# Git so a fresh Raspberry Pi checkout is self-contained; all other .pth files
+# remain LFS-classified and are excluded by the publication allowlist.
+checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth -filter -diff -merge -text
+*.ipynb text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.csv text eol=lf

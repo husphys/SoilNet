@@ -1,0 +1,10 @@
+{
+  "errors": [],
+  "final_clean_split_rows": 1927,
+  "historical_split_rows": 2057,
+  "legacy_github_live_verification": "UNAVAILABLE_WARNING_ONLY",
+  "status": "PASS",
+  "warnings": [
+    "Historical LEGACY_GITHUB snapshot is unavailable for live re-hashing; its frozen 10-file inventory remains checksummed, and it is not required by P0 v3"
+  ]
+}

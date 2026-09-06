@@ -1,0 +1,11 @@
+{
+  "blocking_findings": 0,
+  "checkpoint_files_in_repository": 0,
+  "data_root_internal_redundant_checkpoint_files": 1,
+  "data_root_matches_checkpoint_root": 0,
+  "data_root_matches_legacy_github": 4,
+  "findings": 6,
+  "pth_rows_in_image_manifest": 0,
+  "release_candidate_files": 111,
+  "status": "REVIEW_REQUIRED"
+}

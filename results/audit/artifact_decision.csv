@@ -1,0 +1,1057 @@
+relative_path,status,reason
+Base_line_models_pretrain_ImageNet.py,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+Best_finetuned_VicReg_mu_25.pth,KEEP_CHECKPOINT_REEVALUATE,Hash and compatibility must be verified before selection.
+checkpoints_Vicreg_original_NEW/vicreg_metrics_original_soilnet_mu_23.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+checkpoints_Vicreg_original_NEW/vicreg_metrics_original_soilnet_mu_25.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+checkpoints_Vicreg_original_NEW/vicreg_metrics_original_soilnet_mu_27.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+checkpoints_Vicreg_original_NEW/vicreg_metrics_original_soilnet_mu_30.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+checkpoints_Vicreg_original_NEW/vicreg_metrics_original_soilnet_mu_33.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+checkpoints_Vicreg_original_NEW/vicreg_projector_final_mu_23.0.pth,KEEP_CHECKPOINT_REEVALUATE,Hash and compatibility must be verified before selection.
+checkpoints_Vicreg_original_NEW/vicreg_projector_final_mu_25.0.pth,KEEP_CHECKPOINT_REEVALUATE,Hash and compatibility must be verified before selection.
+checkpoints_Vicreg_original_NEW/vicreg_projector_final_mu_27.0.pth,KEEP_CHECKPOINT_REEVALUATE,Hash and compatibility must be verified before selection.
+checkpoints_Vicreg_original_NEW/vicreg_projector_final_mu_30.0.pth,KEEP_CHECKPOINT_REEVALUATE,Hash and compatibility must be verified before selection.
+checkpoints_Vicreg_original_NEW/vicreg_projector_final_mu_33.0.pth,KEEP_CHECKPOINT_REEVALUATE,Hash and compatibility must be verified before selection.
+checkpoints_Vicreg_original_NEW/VicReg_SoiNet_optimized_mu_23.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+checkpoints_Vicreg_original_NEW/VicReg_SoiNet_optimized_mu_25.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+checkpoints_Vicreg_original_NEW/VicReg_SoiNet_optimized_mu_27.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+checkpoints_Vicreg_original_NEW/VicReg_SoiNet_optimized_mu_30.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+checkpoints_Vicreg_original_NEW/VicReg_SoiNet_optimized_mu_33.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_mu=20.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_mu=23.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_mu=25.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_mu=27.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_mu=30.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_mu=33.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_mu=40.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_new/Finetune_VicReg_mu=20.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_new/Finetune_VicReg_mu=23.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_new/Finetune_VicReg_mu=25.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_new/Finetune_VicReg_mu=27.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_new/Finetune_VicReg_mu=30.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_new/Finetune_VicReg_mu=33.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_new/Finetune_VicReg_TinyImageNet_mu=20.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_new/Finetune_VicReg_TinyImageNet_mu=23.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_new/Finetune_VicReg_TinyImageNet_mu=25.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_new/Finetune_VicReg_TinyImageNet_mu=27.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_new/Finetune_VicReg_TinyImageNet_mu=30.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_new/Finetune_VicReg_TinyImageNet_mu=33.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_new/training_metrics_finetuned_VicReg_mu_20.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+finetune_new/training_metrics_finetuned_VicReg_mu_23.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+finetune_new/training_metrics_finetuned_VicReg_mu_25.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+finetune_new/training_metrics_finetuned_VicReg_mu_27.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+finetune_new/training_metrics_finetuned_VicReg_mu_30.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+finetune_new/training_metrics_finetuned_VicReg_mu_33.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+finetune_new/training_metrics_finetuned_VicReg_TinyImageNet_mu_20.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+finetune_new/training_metrics_finetuned_VicReg_TinyImageNet_mu_23.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+finetune_new/training_metrics_finetuned_VicReg_TinyImageNet_mu_25.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+finetune_new/training_metrics_finetuned_VicReg_TinyImageNet_mu_27.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+finetune_new/training_metrics_finetuned_VicReg_TinyImageNet_mu_30.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+finetune_new/training_metrics_finetuned_VicReg_TinyImageNet_mu_33.csv,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+finetune_tinyImage_mu=20.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_tinyImage_mu=23.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_tinyImage_mu=25.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_tinyImage_mu=27.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_tinyImage_mu=30.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+finetune_tinyImage_mu=33.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+pp_SoiNet_orginal_vicREG-mu=2.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+pp_SoiNet_orginal_vicREG-mu=23.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+pp_SoiNet_orginal_vicREG-mu=25.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+pp_SoiNet_orginal_vicREG-mu=27.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+pp_SoiNet_orginal_vicREG-mu=30.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+pp_SoiNet_orginal_vicREG-mu=33.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+pp_SoiNet_orginal_vicREG-mu=40.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+pp_SoiNet_orginal_vicREG-mu=80.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+pp_SoiNet_orginal_vicREG_mu=20.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+predict_fromtelegram.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+SoilNet_pretrain_ImageNet.py,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+VicReg_all.xlsx,KEEP_AS_TRAINING_LOG,Legacy metrics are retained but evaluation scope must be established.
+vicreg_model_final_tinyImageNet_mu_20.0.pth,KEEP_CHECKPOINT_REEVALUATE,Hash and compatibility must be verified before selection.
+vicreg_model_final_tinyImageNet_mu_23.0.pth,KEEP_CHECKPOINT_REEVALUATE,Hash and compatibility must be verified before selection.
+vicreg_model_final_tinyImageNet_mu_25.0.pth,KEEP_CHECKPOINT_REEVALUATE,Hash and compatibility must be verified before selection.
+vicreg_model_final_tinyImageNet_mu_27.0.pth,KEEP_CHECKPOINT_REEVALUATE,Hash and compatibility must be verified before selection.
+VicReg_SoiNet_optimized_mu_20.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+Vicreg_soiNet_tinyImagenet_mu=20.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+Vicreg_soiNet_tinyImagenet_mu=23.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+Vicreg_soiNet_tinyImagenet_mu=25.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+Vicreg_soiNet_tinyImagenet_mu=27.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+Vicreg_soiNet_tinyImagenet_mu=30.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+Vicreg_soiNet_tinyImagenet_mu=33.ipynb,KEEP_AS_LEGACY,Immutable provenance at pinned commit.
+LOCAL:checkpoints_massive/best_model.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_1.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_10.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_100.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_11.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_12.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_13.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_14.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_15.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_16.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_17.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_18.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_19.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_2.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_20.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_21.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_22.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_23.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_24.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_25.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_26.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_27.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_28.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_29.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_3.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_30.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_31.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_32.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_33.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_34.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_35.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_36.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_37.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_38.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_39.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_4.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_40.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_41.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_42.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_43.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_44.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_45.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_46.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_47.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_48.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_49.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_5.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_50.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_51.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_52.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_53.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_54.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_55.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_56.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_57.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_58.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_59.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_6.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_60.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_61.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_62.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_63.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_64.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_65.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_66.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_67.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_68.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_69.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_7.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_70.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_71.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_72.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_73.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_74.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_75.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_76.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_77.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_78.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_79.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_8.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_80.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_81.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_82.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_83.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_84.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_85.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_86.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_87.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_88.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_89.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_9.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_90.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_91.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_92.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_93.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_94.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_95.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_96.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_97.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_98.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_massive/checkpoint_epoch_99.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/best_model_small.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_1.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_10.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_100.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_11.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_12.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_13.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_14.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_15.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_16.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_17.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_18.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_19.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_2.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_20.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_21.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_22.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_23.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_24.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_25.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_26.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_27.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_28.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_29.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_3.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_30.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_31.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_32.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_33.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_34.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_35.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_36.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_37.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_38.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_39.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_4.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_40.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_41.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_42.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_43.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_44.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_45.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_46.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_47.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_48.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_49.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_5.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_50.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_51.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_52.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_53.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_54.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_55.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_56.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_57.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_58.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_59.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_6.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_60.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_61.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_62.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_63.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_64.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_65.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_66.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_67.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_68.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_69.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_7.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_70.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_71.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_72.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_73.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_74.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_75.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_76.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_77.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_78.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_79.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_8.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_80.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_81.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_82.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_83.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_84.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_85.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_86.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_87.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_88.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_89.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_9.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_90.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_91.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_92.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_93.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_94.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_95.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_96.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_97.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_98.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_small/checkpoint_epoch_99.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/best_model_tiny.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_1.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_10.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_100.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_11.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_12.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_13.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_14.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_15.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_16.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_17.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_18.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_19.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_2.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_20.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_21.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_22.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_23.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_24.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_25.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_26.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_27.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_28.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_29.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_3.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_30.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_31.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_32.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_33.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_34.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_35.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_36.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_37.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_38.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_39.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_4.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_40.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_41.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_42.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_43.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_44.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_45.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_46.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_47.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_48.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_49.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_5.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_50.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_51.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_52.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_53.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_54.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_55.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_56.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_57.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_58.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_59.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_6.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_60.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_61.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_62.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_63.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_64.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_65.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_66.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_67.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_68.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_69.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_7.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_70.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_71.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_72.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_73.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_74.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_75.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_76.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_77.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_78.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_79.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_8.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_80.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_81.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_82.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_83.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_84.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_85.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_86.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_87.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_88.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_89.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_9.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_90.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_91.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_92.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_93.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_94.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_95.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_96.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_97.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_98.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_tiny/checkpoint_epoch_99.pth,KEEP_AS_LEGACY,Preserve locally but do not publish/use until provenance is established.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_model_final_mu_20.0.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_1.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_10.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_100.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_11.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_12.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_13.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_14.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_15.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_16.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_17.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_18.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_19.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_2.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_20.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_21.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_22.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_23.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_24.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_25.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_26.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_27.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_28.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_29.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_3.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_30.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_31.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_32.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_33.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_34.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_35.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_36.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_37.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_38.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_39.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_4.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_40.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_41.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_42.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_43.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_44.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_45.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_46.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_47.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_48.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_49.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_5.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_50.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_51.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_52.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_53.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_54.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_55.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_56.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_57.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_58.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_59.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_6.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_60.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_61.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_62.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_63.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_64.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_65.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_66.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_67.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_68.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_69.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_7.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_70.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_71.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_72.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_73.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_74.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_75.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_76.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_77.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_78.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_79.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_8.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_80.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_81.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_82.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_83.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_84.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_85.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_86.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_87.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_88.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_89.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_9.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_90.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_91.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_92.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_93.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_94.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_95.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_96.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_97.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_98.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_20.0_epoch_99.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_1.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_10.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_11.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_12.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_13.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_14.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_15.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_16.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_17.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_18.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_19.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_2.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_20.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_21.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_22.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_23.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_24.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_25.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_26.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_27.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_28.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_29.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_3.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_30.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_31.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_32.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_33.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_34.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_35.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_36.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_37.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_38.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_39.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_4.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_40.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_41.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_42.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_43.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_44.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_45.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_46.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_47.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_48.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_49.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_5.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_50.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_51.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_52.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_53.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_54.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_55.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_56.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_57.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_58.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_59.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_6.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_60.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_61.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_62.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_63.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_64.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_65.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_66.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_67.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_68.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_69.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_7.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_70.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_71.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_72.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_8.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_mu_23.0_epoch_9.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_ImageNet_NEWXX/vicreg_projector_final_mu_20.0.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_model_final_mu_20.0.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_model_final_mu_23.0.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_model_final_mu_25.0.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_model_final_mu_27.0.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_model_final_mu_30.0.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_model_final_mu_33.0.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_1.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_10.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_11.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_12.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_13.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_14.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_15.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_16.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_17.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_18.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_19.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_2.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_20.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_21.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_22.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_23.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_24.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_25.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_26.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_27.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_28.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_29.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_3.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_30.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_31.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_32.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_33.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_34.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_35.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_36.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_37.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_38.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_39.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_4.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_40.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_41.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_42.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_43.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_44.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_45.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_46.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_47.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_48.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_49.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_5.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_50.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_51.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_52.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_53.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_54.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_55.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_56.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_57.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_58.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_59.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_6.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_60.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_61.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_62.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_63.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_64.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_65.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_66.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_67.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_68.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_69.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_7.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_70.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_71.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_72.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_73.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_74.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_75.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_76.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_77.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_78.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_79.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_8.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_80.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_20.0_epoch_9.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_1.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_10.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_11.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_12.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_13.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_14.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_15.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_16.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_17.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_18.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_19.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_2.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_20.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_21.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_22.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_23.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_24.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_25.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_26.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_27.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_28.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_29.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_3.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_30.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_31.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_32.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_33.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_34.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_35.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_36.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_37.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_38.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_39.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_4.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_40.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_41.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_42.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_43.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_44.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_45.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_46.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_47.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_48.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_49.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_5.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_50.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_51.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_52.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_53.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_54.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_55.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_56.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_57.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_58.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_59.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_6.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_60.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_61.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_62.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_63.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_64.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_65.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_66.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_67.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_68.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_69.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_7.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_70.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_71.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_72.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_73.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_74.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_75.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_76.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_77.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_78.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_79.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_8.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_80.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_23.0_epoch_9.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_1.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_10.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_11.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_12.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_13.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_14.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_15.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_16.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_17.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_18.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_19.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_2.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_20.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_21.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_22.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_23.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_24.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_25.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_26.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_27.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_28.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_29.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_3.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_30.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_31.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_32.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_33.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_34.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_35.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_36.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_37.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_38.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_39.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_4.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_40.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_41.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_42.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_43.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_44.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_45.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_46.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_47.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_48.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_49.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_5.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_50.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_51.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_52.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_53.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_54.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_55.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_56.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_57.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_58.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_59.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_6.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_60.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_61.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_62.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_63.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_64.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_65.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_66.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_67.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_68.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_69.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_7.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_70.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_71.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_72.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_73.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_74.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_75.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_76.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_77.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_78.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_79.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_8.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_80.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_25.0_epoch_9.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_1.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_10.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_11.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_12.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_13.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_14.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_15.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_16.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_17.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_18.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_19.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_2.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_20.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_21.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_22.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_23.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_24.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_25.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_26.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_27.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_28.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_29.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_3.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_30.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_31.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_32.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_33.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_34.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_35.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_36.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_37.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_38.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_39.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_4.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_40.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_41.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_42.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_43.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_44.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_45.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_46.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_47.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_48.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_49.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_5.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_50.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_51.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_52.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_53.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_54.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_55.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_56.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_57.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_58.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_59.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_6.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_60.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_61.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_62.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_63.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_64.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_65.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_66.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_67.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_68.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_69.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_7.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_70.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_71.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_72.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_73.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_74.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_75.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_76.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_77.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_78.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_79.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_8.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_80.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_27.0_epoch_9.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_1.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_10.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_11.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_12.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_13.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_14.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_15.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_16.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_17.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_18.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_19.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_2.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_20.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_21.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_22.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_23.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_24.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_25.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_26.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_27.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_28.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_29.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_3.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_30.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_31.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_32.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_33.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_34.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_35.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_36.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_37.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_38.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_39.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_4.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_40.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_41.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_42.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_43.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_44.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_45.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_46.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_47.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_48.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_49.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_5.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_50.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_51.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_52.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_53.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_54.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_55.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_56.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_57.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_58.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_59.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_6.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_60.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_61.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_62.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_63.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_64.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_65.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_66.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_67.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_68.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_69.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_7.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_70.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_71.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_72.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_73.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_74.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_75.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_76.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_77.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_78.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_79.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_8.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_80.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_30.0_epoch_9.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_1.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_10.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_11.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_12.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_13.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_14.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_15.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_16.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_17.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_18.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_19.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_2.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_20.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_21.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_22.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_23.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_24.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_25.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_26.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_27.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_28.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_29.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_3.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_30.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_31.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_32.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_33.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_34.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_35.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_36.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_37.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_38.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_39.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_4.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_40.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_41.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_42.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_43.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_44.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_45.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_46.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_47.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_48.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_49.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_5.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_50.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_51.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_52.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_53.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_54.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_55.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_56.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_57.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_58.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_59.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_6.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_60.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_61.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_62.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_63.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_64.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_65.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_66.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_67.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_68.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_69.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_7.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_70.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_71.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_72.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_73.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_74.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_75.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_76.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_77.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_78.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_79.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_8.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_80.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_mu_33.0_epoch_9.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_projector_final_mu_20.0.pth,KEEP_CHECKPOINT_REEVALUATE,Local-only checkpoint; verify experiment lineage before use.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_projector_final_mu_23.0.pth,KEEP_CHECKPOINT_REEVALUATE,Byte-identical cross-source checkpoint; semantic lineage and held-out evaluation remain required.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_projector_final_mu_25.0.pth,KEEP_CHECKPOINT_REEVALUATE,Byte-identical cross-source checkpoint; semantic lineage and held-out evaluation remain required.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_projector_final_mu_27.0.pth,KEEP_CHECKPOINT_REEVALUATE,Byte-identical cross-source checkpoint; semantic lineage and held-out evaluation remain required.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_projector_final_mu_30.0.pth,KEEP_CHECKPOINT_REEVALUATE,Byte-identical cross-source checkpoint; semantic lineage and held-out evaluation remain required.
+LOCAL:checkpoints_VicReg_original_NEW/vicreg_projector_final_mu_33.0.pth,KEEP_CHECKPOINT_REEVALUATE,Byte-identical cross-source checkpoint; semantic lineage and held-out evaluation remain required.
+GITHUB:Best_finetuned_VicReg_mu_25.pth,KEEP_AS_LEGACY,GitHub-only pinned legacy artifact.
+GITHUB:checkpoints_Vicreg_original_NEW/vicreg_projector_final_mu_23.0.pth,KEEP_CHECKPOINT_REEVALUATE,Byte-identical cross-source checkpoint; semantic lineage and held-out evaluation remain required.
+GITHUB:checkpoints_Vicreg_original_NEW/vicreg_projector_final_mu_25.0.pth,KEEP_CHECKPOINT_REEVALUATE,Byte-identical cross-source checkpoint; semantic lineage and held-out evaluation remain required.
+GITHUB:checkpoints_Vicreg_original_NEW/vicreg_projector_final_mu_27.0.pth,KEEP_CHECKPOINT_REEVALUATE,Byte-identical cross-source checkpoint; semantic lineage and held-out evaluation remain required.
+GITHUB:checkpoints_Vicreg_original_NEW/vicreg_projector_final_mu_30.0.pth,KEEP_CHECKPOINT_REEVALUATE,Byte-identical cross-source checkpoint; semantic lineage and held-out evaluation remain required.
+GITHUB:checkpoints_Vicreg_original_NEW/vicreg_projector_final_mu_33.0.pth,KEEP_CHECKPOINT_REEVALUATE,Byte-identical cross-source checkpoint; semantic lineage and held-out evaluation remain required.
+GITHUB:vicreg_model_final_tinyImageNet_mu_20.0.pth,KEEP_AS_LEGACY,GitHub-only pinned legacy artifact.
+GITHUB:vicreg_model_final_tinyImageNet_mu_23.0.pth,KEEP_AS_LEGACY,GitHub-only pinned legacy artifact.
+GITHUB:vicreg_model_final_tinyImageNet_mu_25.0.pth,KEEP_AS_LEGACY,GitHub-only pinned legacy artifact.
+GITHUB:vicreg_model_final_tinyImageNet_mu_27.0.pth,KEEP_AS_LEGACY,GitHub-only pinned legacy artifact.

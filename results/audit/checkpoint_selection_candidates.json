@@ -1,0 +1,143 @@
+{
+  "candidate_count": 17,
+  "candidate_total_bytes": 199682864,
+  "candidates": [
+    {
+      "checkpoint_id": "sha256:94f99a3efdeb2094bb30",
+      "filename": "best_model.pth",
+      "relative_path": "checkpoints_massive/best_model.pth",
+      "sha256": "94f99a3efdeb2094bb305b0362338eb053c17c8cb4b81f9529e95c45822894ed",
+      "size_bytes": "32712893",
+      "status": "UNKNOWN_PROVENANCE"
+    },
+    {
+      "checkpoint_id": "sha256:240b3e00e0328f1f1b9f",
+      "filename": "best_model_small.pth",
+      "relative_path": "checkpoints_small/best_model_small.pth",
+      "sha256": "240b3e00e0328f1f1b9f7329230531a17e706c9ff5cf32492aa57775cfd3df46",
+      "size_bytes": "2486111",
+      "status": "UNKNOWN_PROVENANCE"
+    },
+    {
+      "checkpoint_id": "sha256:75ab632eefefc0410f16",
+      "filename": "best_model_tiny.pth",
+      "relative_path": "checkpoints_tiny/best_model_tiny.pth",
+      "sha256": "75ab632eefefc0410f166796d004b1ddb3b26b849357226b441441c3b565149b",
+      "size_bytes": "508475",
+      "status": "UNKNOWN_PROVENANCE"
+    },
+    {
+      "checkpoint_id": "sha256:6e576e723823940c4fa0",
+      "filename": "vicreg_model_final_mu_20.0.pth",
+      "relative_path": "checkpoints_VicReg_ImageNet_NEWXX/vicreg_model_final_mu_20.0.pth",
+      "sha256": "6e576e723823940c4fa0a8241c53415914fbb4a520596fbf86565c7e329db7e6",
+      "size_bytes": "16208023",
+      "status": "LOCAL_ONLY"
+    },
+    {
+      "checkpoint_id": "sha256:11bf7c902c9b9bba5003",
+      "filename": "vicreg_projector_final_mu_20.0.pth",
+      "relative_path": "checkpoints_VicReg_ImageNet_NEWXX/vicreg_projector_final_mu_20.0.pth",
+      "sha256": "11bf7c902c9b9bba500347a79e761717512782b3feabbe4a531a014663fb5e47",
+      "size_bytes": "7217032",
+      "status": "LOCAL_ONLY"
+    },
+    {
+      "checkpoint_id": "sha256:2708eb89c6d6341b636d",
+      "filename": "vicreg_model_final_mu_20.0.pth",
+      "relative_path": "checkpoints_VicReg_original_NEW/vicreg_model_final_mu_20.0.pth",
+      "sha256": "2708eb89c6d6341b636da668a8d1e732b971f565937f9a94b97c325f415bc85f",
+      "size_bytes": "16208023",
+      "status": "LOCAL_ONLY"
+    },
+    {
+      "checkpoint_id": "sha256:8ac2cc4110c3d6a6f740",
+      "filename": "vicreg_model_final_mu_23.0.pth",
+      "relative_path": "checkpoints_VicReg_original_NEW/vicreg_model_final_mu_23.0.pth",
+      "sha256": "8ac2cc4110c3d6a6f7408352ae376a898f8da856b0441e704eae92f4fabcf41b",
+      "size_bytes": "16208023",
+      "status": "LOCAL_ONLY"
+    },
+    {
+      "checkpoint_id": "sha256:5b5b015f3bc14e6ce915",
+      "filename": "vicreg_model_final_mu_25.0.pth",
+      "relative_path": "checkpoints_VicReg_original_NEW/vicreg_model_final_mu_25.0.pth",
+      "sha256": "5b5b015f3bc14e6ce9158dd62a08c9d2697b53092ada506922b622553f402285",
+      "size_bytes": "16208023",
+      "status": "LOCAL_ONLY"
+    },
+    {
+      "checkpoint_id": "sha256:42599ac025b8d8c8c5b8",
+      "filename": "vicreg_model_final_mu_27.0.pth",
+      "relative_path": "checkpoints_VicReg_original_NEW/vicreg_model_final_mu_27.0.pth",
+      "sha256": "42599ac025b8d8c8c5b8cca36624665f155e0ff588cd90de2fd47b08cd2d60d8",
+      "size_bytes": "16208023",
+      "status": "LOCAL_ONLY"
+    },
+    {
+      "checkpoint_id": "sha256:08678cf2bc39897aa6b8",
+      "filename": "vicreg_model_final_mu_30.0.pth",
+      "relative_path": "checkpoints_VicReg_original_NEW/vicreg_model_final_mu_30.0.pth",
+      "sha256": "08678cf2bc39897aa6b87c3fb5c454367c948edef634e542e2da6bf827d3c5ae",
+      "size_bytes": "16208023",
+      "status": "LOCAL_ONLY"
+    },
+    {
+      "checkpoint_id": "sha256:eca38571da2404f39ddf",
+      "filename": "vicreg_model_final_mu_33.0.pth",
+      "relative_path": "checkpoints_VicReg_original_NEW/vicreg_model_final_mu_33.0.pth",
+      "sha256": "eca38571da2404f39ddf6deaf19d7844aece3407a6fa8383e1f572f23336a94d",
+      "size_bytes": "16208023",
+      "status": "LOCAL_ONLY"
+    },
+    {
+      "checkpoint_id": "sha256:5984ab1bdecac99ab94f",
+      "filename": "vicreg_projector_final_mu_20.0.pth",
+      "relative_path": "checkpoints_VicReg_original_NEW/vicreg_projector_final_mu_20.0.pth",
+      "sha256": "5984ab1bdecac99ab94fd9df62670feac8615ff5f7c7de25af15b7922ad5fbab",
+      "size_bytes": "7217032",
+      "status": "LOCAL_ONLY"
+    },
+    {
+      "checkpoint_id": "sha256:57b0ddf2342b9f157580",
+      "filename": "vicreg_projector_final_mu_23.0.pth",
+      "relative_path": "checkpoints_VicReg_original_NEW/vicreg_projector_final_mu_23.0.pth",
+      "sha256": "57b0ddf2342b9f157580071e521c8a8220033a72bf072684446ea997a30fadff",
+      "size_bytes": "7217032",
+      "status": "VERIFIED_IDENTICAL"
+    },
+    {
+      "checkpoint_id": "sha256:2560446e649946eea2f3",
+      "filename": "vicreg_projector_final_mu_25.0.pth",
+      "relative_path": "checkpoints_VicReg_original_NEW/vicreg_projector_final_mu_25.0.pth",
+      "sha256": "2560446e649946eea2f3a0ce1a686358eed77a7468001257498dfe1ffd645a64",
+      "size_bytes": "7217032",
+      "status": "VERIFIED_IDENTICAL"
+    },
+    {
+      "checkpoint_id": "sha256:2ccdf9d8f2baa0503e71",
+      "filename": "vicreg_projector_final_mu_27.0.pth",
+      "relative_path": "checkpoints_VicReg_original_NEW/vicreg_projector_final_mu_27.0.pth",
+      "sha256": "2ccdf9d8f2baa0503e713b58f748f0544e3c84dbf1941974aeb89528ea4c70ea",
+      "size_bytes": "7217032",
+      "status": "VERIFIED_IDENTICAL"
+    },
+    {
+      "checkpoint_id": "sha256:79295791c006136ef158",
+      "filename": "vicreg_projector_final_mu_30.0.pth",
+      "relative_path": "checkpoints_VicReg_original_NEW/vicreg_projector_final_mu_30.0.pth",
+      "sha256": "79295791c006136ef158bcba8c0e60dfccd34b9adf8dcb3e31184f59c9f55583",
+      "size_bytes": "7217032",
+      "status": "VERIFIED_IDENTICAL"
+    },
+    {
+      "checkpoint_id": "sha256:0eeca5f0103c722201f5",
+      "filename": "vicreg_projector_final_mu_33.0.pth",
+      "relative_path": "checkpoints_VicReg_original_NEW/vicreg_projector_final_mu_33.0.pth",
+      "sha256": "0eeca5f0103c722201f50891f58c444de50a59fc4169dfb70f06e06f7f89ff37",
+      "size_bytes": "7217032",
+      "status": "VERIFIED_IDENTICAL"
+    }
+  ],
+  "warning": "Candidates are names only, not approved selections. Selection requires experiment/checkpoint/metric lineage."
+}

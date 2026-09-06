@@ -1,0 +1,14 @@
+{
+  "duplicate_rows": 0,
+  "github_checkpoints": 10,
+  "github_only": 5,
+  "incompatible_rows": 0,
+  "local_checkpoints": 969,
+  "local_only": 661,
+  "policy": "No checkpoint is copied or selected automatically. Prefer verified final/best checkpoints after experiment mapping.",
+  "total_bytes_local": 26112402357,
+  "unique_checkpoints_by_sha256": 974,
+  "unknown_provenance": 303,
+  "verified_identical_rows": 10,
+  "verified_identical_unique_hashes": 5
+}

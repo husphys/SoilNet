@@ -1,0 +1,13 @@
+captured_utc: 2026-09-05T11:37:54.454447+00:00
+status: CUDA_UNAVAILABLE
+torch.__version__: 2.6.0+cu118
+torch.version.cuda: 11.8
+torch.cuda.is_available(): False
+torch.cuda.device_count(): 0
+torch.cuda.get_device_name(0): UNAVAILABLE
+CUDA tensor/matmul smoke: False
+nvidia-smi command: /usr/lib/wsl/lib/nvidia-smi
+nvidia-smi exit code: 255
+nvidia-smi output:
+Failed to initialize NVML: GPU access blocked by the operating system
+Failed to properly shut down NVML: GPU access blocked by the operating system

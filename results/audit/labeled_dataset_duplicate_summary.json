@@ -1,0 +1,27 @@
+{
+  "all_image_pool": {
+    "exact_duplicate_groups": 2905,
+    "exact_unique": 5178,
+    "near_duplicate_candidate_components": 834,
+    "near_duplicate_candidate_pairs": 466200,
+    "redundant_copies": 8875,
+    "total": 14053
+  },
+  "final_prospective_split": {
+    "exact_cross_split_duplicates": 0,
+    "group_leakage": 0,
+    "near_duplicate_cross_split_candidates": 0,
+    "test": 244,
+    "train": 1496,
+    "validation": 317
+  },
+  "labeled_dataset": {
+    "exact_duplicate_groups": 46,
+    "exact_unique": 1973,
+    "labeled_rows": 2057,
+    "near_duplicate_candidate_components": 399,
+    "near_duplicate_member_rows": 1403,
+    "redundant_copies": 84
+  },
+  "terminology": "14053 is the image pool; only 2057 manifest rows form the labeled supervised dataset."
+}
