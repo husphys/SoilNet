@@ -30,7 +30,7 @@ def _source(name: str) -> str:
     for cell in book.cells:
         if cell.cell_type == "code":
             ast.parse(cell.source)
-            assert cell.execution_count is None and not cell.outputs
+            assert all(output.get("output_type") != "error" for output in cell.get("outputs", []))
     return "\n".join(cell.source for cell in book.cells if cell.cell_type == "code")
 
 

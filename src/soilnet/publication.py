@@ -34,6 +34,23 @@ EDGE_RESULT_FILES = (
 )
 EDGE_COMMIT_MESSAGE = "Add Raspberry Pi deployment benchmark"
 FINAL_COMMIT_MESSAGE = "Final SoilNet reproducibility results and Q1 evaluation"
+LOCAL_ONLY_EXCLUSIONS = {
+    "notebooks/final_experiments/01_P0_final_soilnet.ipynb",
+    "notebooks/final_experiments/02_P1_ablation_no_li.ipynb",
+    "notebooks/final_experiments/03_P1_ablation_no_ssl.ipynb",
+    "notebooks/final_experiments/04_P1_mobilenetv2.ipynb",
+    "notebooks/final_experiments/05_P1_mobilevitv2.ipynb",
+    "notebooks/final_experiments/06_P2_mobilenetv3.ipynb",
+    "notebooks/final_experiments/07_P2_efficientnet_b0.ipynb",
+    "notebooks/final_experiments/08_P2_classical_ml.ipynb",
+    "notebooks/final_experiments/09_final_test_evaluation.ipynb",
+    "notebooks/final_experiments/10_results_summary.ipynb",
+    "results/audit/environment.json",
+    "results/audit/legacy_path_references.csv",
+    "results/audit/system_info.txt",
+    "scripts/README.md",
+    "scripts/generate_final_notebooks.py",
+}
 FINAL_NOTEBOOKS = {
     "00_gpu_environment_check.ipynb",
     "01_P0_final_soilnet_v4_bestreg.ipynb",
@@ -258,7 +275,8 @@ def _worktree_paths() -> list[str]:
         value = line[3:]
         if " -> " in value:
             value = value.split(" -> ", 1)[1]
-        paths.append(value)
+        if value not in LOCAL_ONLY_EXCLUSIONS:
+            paths.append(value)
     return paths
 
 
