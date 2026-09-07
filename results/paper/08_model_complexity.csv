@@ -1,0 +1,5 @@
+model,checkpoint_size_bytes,input_shape,li_input_dimension,parameters,trainable_parameters
+P0,44895306,3x224x224,1,3682133,3682133
+P1_noLI,44893470,3x224x224,1,3682133,3682133
+P1_noSSL,44896842,3x224x224,1,3682133,3682133
+P2_MobileViTv2,14601889,3x224x224,1,1189189,1189189

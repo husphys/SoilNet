@@ -1,0 +1,178 @@
+{
+  "models": {
+    "P0": {
+      "Accuracy": 0.5670995670995671,
+      "Macro_F1": 0.5273496109735702,
+      "Macro_Precision": 0.5452595789486032,
+      "Macro_Recall": 0.5487794109485286,
+      "SM0_MAE": 8.784365778361565,
+      "SM0_ME": -0.1843698349866,
+      "SM0_R2": 0.8409093659972813,
+      "SM0_RMSE": 12.103337982856823,
+      "SM20_MAE": 9.648860603183895,
+      "SM20_ME": 0.21173891050991042,
+      "SM20_R2": 0.8175428665986871,
+      "SM20_RMSE": 12.976638164745548,
+      "experiment_id": "P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG",
+      "mean_MAE": 9.21661319077273,
+      "mean_RMSE": 12.539988073801187,
+      "n": 231,
+      "raw": {
+        "classification": {
+          "accuracy": 0.5670995670995671,
+          "macro_f1": 0.5273496109735702,
+          "macro_precision": 0.5452595789486032,
+          "macro_recall": 0.5487794109485286
+        },
+        "n": 231,
+        "regression": {
+          "SM_0": {
+            "mae": 8.784365778361565,
+            "me": -0.1843698349866,
+            "r2": 0.8409093659972813,
+            "rmse": 12.103337982856823
+          },
+          "SM_20": {
+            "mae": 9.648860603183895,
+            "me": 0.21173891050991042,
+            "r2": 0.8175428665986871,
+            "rmse": 12.976638164745548
+          }
+        },
+        "regression_scale": "original_0_to_100_percentage_points"
+      },
+      "regression_scale": "original_0_to_100_percentage_points"
+    },
+    "P1_noLI": {
+      "Accuracy": 0.5930735930735931,
+      "Macro_F1": 0.5432193960655733,
+      "Macro_Precision": 0.5469140407016605,
+      "Macro_Recall": 0.5674398844619433,
+      "SM0_MAE": 8.555844129938068,
+      "SM0_ME": -0.15597605034386441,
+      "SM0_R2": 0.835301201143292,
+      "SM0_RMSE": 12.31482006638559,
+      "SM20_MAE": 8.681437696729388,
+      "SM20_ME": -0.5309865815298898,
+      "SM20_R2": 0.8332966616618795,
+      "SM20_RMSE": 12.403776148589904,
+      "experiment_id": "P1_SOILNET_VICREG_MU27_NO_LI_BESTREG",
+      "mean_MAE": 8.618640913333728,
+      "mean_RMSE": 12.359298107487746,
+      "n": 231,
+      "raw": {
+        "classification": {
+          "accuracy": 0.5930735930735931,
+          "macro_f1": 0.5432193960655733,
+          "macro_precision": 0.5469140407016605,
+          "macro_recall": 0.5674398844619433
+        },
+        "n": 231,
+        "regression": {
+          "SM_0": {
+            "mae": 8.555844129938068,
+            "me": -0.15597605034386441,
+            "r2": 0.835301201143292,
+            "rmse": 12.31482006638559
+          },
+          "SM_20": {
+            "mae": 8.681437696729388,
+            "me": -0.5309865815298898,
+            "r2": 0.8332966616618795,
+            "rmse": 12.403776148589904
+          }
+        },
+        "regression_scale": "original_0_to_100_percentage_points"
+      },
+      "regression_scale": "original_0_to_100_percentage_points"
+    },
+    "P1_noSSL": {
+      "Accuracy": 0.341991341991342,
+      "Macro_F1": 0.288570926950495,
+      "Macro_Precision": 0.31552304245285295,
+      "Macro_Recall": 0.3094031091457562,
+      "SM0_MAE": 12.876453713421181,
+      "SM0_ME": 0.5933051914363713,
+      "SM0_R2": 0.6984304275283781,
+      "SM0_RMSE": 16.663898624242883,
+      "SM20_MAE": 12.834226079833456,
+      "SM20_ME": -1.8273504843443502,
+      "SM20_R2": 0.7023698717792515,
+      "SM20_RMSE": 16.57372838278886,
+      "experiment_id": "P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG",
+      "mean_MAE": 12.855339896627319,
+      "mean_RMSE": 16.618813503515874,
+      "n": 231,
+      "raw": {
+        "classification": {
+          "accuracy": 0.341991341991342,
+          "macro_f1": 0.288570926950495,
+          "macro_precision": 0.31552304245285295,
+          "macro_recall": 0.3094031091457562
+        },
+        "n": 231,
+        "regression": {
+          "SM_0": {
+            "mae": 12.876453713421181,
+            "me": 0.5933051914363713,
+            "r2": 0.6984304275283781,
+            "rmse": 16.663898624242883
+          },
+          "SM_20": {
+            "mae": 12.834226079833456,
+            "me": -1.8273504843443502,
+            "r2": 0.7023698717792515,
+            "rmse": 16.57372838278886
+          }
+        },
+        "regression_scale": "original_0_to_100_percentage_points"
+      },
+      "regression_scale": "original_0_to_100_percentage_points"
+    },
+    "P2_MobileViTv2": {
+      "Accuracy": 0.6363636363636364,
+      "Macro_F1": 0.5895448242309791,
+      "Macro_Precision": 0.6091711344211345,
+      "Macro_Recall": 0.6006274975024974,
+      "SM0_MAE": 6.480418247577948,
+      "SM0_ME": -0.3304282772592652,
+      "SM0_R2": 0.9237583219132508,
+      "SM0_RMSE": 8.378747021917045,
+      "SM20_MAE": 6.957631275509343,
+      "SM20_ME": 0.6097626714479356,
+      "SM20_R2": 0.9145394739338916,
+      "SM20_RMSE": 8.88105485140969,
+      "experiment_id": "P2_MOBILEVITV2_IMAGENET_LI_BESTREG",
+      "mean_MAE": 6.719024761543645,
+      "mean_RMSE": 8.629900936663368,
+      "n": 231,
+      "raw": {
+        "classification": {
+          "accuracy": 0.6363636363636364,
+          "macro_f1": 0.5895448242309791,
+          "macro_precision": 0.6091711344211345,
+          "macro_recall": 0.6006274975024974
+        },
+        "n": 231,
+        "regression": {
+          "SM_0": {
+            "mae": 6.480418247577948,
+            "me": -0.3304282772592652,
+            "r2": 0.9237583219132508,
+            "rmse": 8.378747021917045
+          },
+          "SM_20": {
+            "mae": 6.957631275509343,
+            "me": 0.6097626714479356,
+            "r2": 0.9145394739338916,
+            "rmse": 8.88105485140969
+          }
+        },
+        "regression_scale": "original_0_to_100_percentage_points"
+      },
+      "regression_scale": "original_0_to_100_percentage_points"
+    }
+  },
+  "regression_scale": "original_0_to_100_percentage_points",
+  "test_n": 231
+}

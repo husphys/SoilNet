@@ -1,0 +1,32 @@
+{
+  "MODEL_SET_FROZEN": "YES",
+  "TEST_EVALUATED": "YES",
+  "TEST_OPENED": "YES",
+  "bootstrap": {
+    "ci": "95% percentile",
+    "n_bootstrap": 10000,
+    "paired_by": "sample index",
+    "seed": 20260906
+  },
+  "model_sha256": {
+    "P0": "eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379",
+    "P1_noLI": "a9d8de995b0673e9ec39bfc4afac00d6a2a773ad9ffbea0027ff2d0c4fab820c",
+    "P1_noSSL": "50c0f15567ab71a87b04569790b9cc7afd016989e3899d56e1898d8a6fcfb044",
+    "P2_MobileViTv2": "0a080d5129a2e57f1c2baf420b5af9aadf913fc0aab0d0050b6d662f24c28a8d"
+  },
+  "policy": "No training notebook may use these outcomes for model changes.",
+  "software_environment": {
+    "cuda_available": true,
+    "cuda_runtime": "11.8",
+    "device": "NVIDIA GeForce RTX 3050",
+    "numpy": "2.4.6",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.11.15",
+    "timm": "1.0.29",
+    "torch": "2.6.0+cu118",
+    "torchvision": "0.21.0+cu118"
+  },
+  "split_sha256": "8927b8223b8c4c234d264ad9ea62ac2df6161124a79787a2e71eeb5cd23eae2f",
+  "test_n": 231,
+  "timestamp": "2026-09-06T15:14:43.937637+00:00"
+}

@@ -1,0 +1,240 @@
+{
+  "MODEL_SET_FROZEN": "YES",
+  "TEST_EVALUATED": "NO",
+  "TEST_OPENED": "NO",
+  "created_utc": "2026-09-06T14:29:55.461211+00:00",
+  "dataset_manifest_sha256": "8ff45054d4b8e3df9758d0c112dc16719572b2267906fb3a5ed5b3262a6732bd",
+  "model_count": 4,
+  "models": [
+    {
+      "LI": true,
+      "VICReg": true,
+      "architecture": "SoilNet",
+      "best_epoch": 45,
+      "checkpoint_path": "/mnt/d/check point/soilnet_final_runs/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG/validation_best_regression.pth",
+      "checkpoint_sha256": "eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379",
+      "complexity": {
+        "checkpoint_size_bytes": 44895306,
+        "input_shape": "3x224x224",
+        "li_input_dimension": 1,
+        "parameters": 3682133,
+        "trainable_parameters": 3682133
+      },
+      "config_path": "config/experiments/P0_final_soilnet_v4_bestreg.yaml",
+      "config_sha256": "ad39b3fc8217b297e79c9752cb7d2eaed19872478625f1ef9982a771b2f68e5a",
+      "experiment_id": "P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG",
+      "frozen": true,
+      "initialization": "ImageNet then VICReg mu=27",
+      "key": "P0",
+      "model_role": "primary_full_model",
+      "mutable": false,
+      "seed": 20260905,
+      "split_sha256": "8927b8223b8c4c234d264ad9ea62ac2df6161124a79787a2e71eeb5cd23eae2f",
+      "validation_metrics": {
+        "checkpoint_selection": "minimum_mean_validation_RMSE",
+        "classification": {
+          "accuracy": 0.4809688581314879,
+          "macro_f1": 0.4771764421990395,
+          "macro_precision": 0.4856271777003484,
+          "macro_recall": 0.4838881827361803
+        },
+        "generated_from_checkpoint": "/mnt/d/check point/soilnet_final_runs/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG/validation_best_regression.pth",
+        "generated_from_checkpoint_epoch": 45,
+        "generated_from_checkpoint_sha256": "eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379",
+        "n": 289,
+        "regression": {
+          "SM_0": {
+            "mae": 10.299095516798818,
+            "me": 1.127402097708626,
+            "r2": 0.7624771522980361,
+            "rmse": 14.420743601668894
+          },
+          "SM_20": {
+            "mae": 10.472837215063894,
+            "me": 0.8537708883879507,
+            "r2": 0.754491151518814,
+            "rmse": 14.636912724403645
+          }
+        },
+        "regression_scale": "original_0_to_100_percentage_points"
+      },
+      "validation_metrics_path": "/mnt/d/check point/soilnet_final_runs/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG/validation_metrics.json",
+      "validation_predictions_path": "/mnt/d/check point/soilnet_final_runs/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG/validation_predictions.csv"
+    },
+    {
+      "LI": false,
+      "VICReg": true,
+      "architecture": "SoilNet",
+      "best_epoch": 53,
+      "checkpoint_path": "/mnt/d/check point/soilnet_final_runs/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG/validation_best_regression.pth",
+      "checkpoint_sha256": "a9d8de995b0673e9ec39bfc4afac00d6a2a773ad9ffbea0027ff2d0c4fab820c",
+      "complexity": {
+        "checkpoint_size_bytes": 44893470,
+        "input_shape": "3x224x224",
+        "li_input_dimension": 1,
+        "parameters": 3682133,
+        "trainable_parameters": 3682133
+      },
+      "config_path": "config/experiments/P1_no_li_bestreg.yaml",
+      "config_sha256": "6f29102ac47c6d7039b94fc9d22fcf7bc222bed5dfc000c65f57fb31122a9a04",
+      "experiment_id": "P1_SOILNET_VICREG_MU27_NO_LI_BESTREG",
+      "frozen": true,
+      "initialization": "ImageNet then VICReg mu=27",
+      "key": "P1_noLI",
+      "model_role": "LI_ablation",
+      "mutable": false,
+      "seed": 20260905,
+      "split_sha256": "8927b8223b8c4c234d264ad9ea62ac2df6161124a79787a2e71eeb5cd23eae2f",
+      "validation_metrics": {
+        "checkpoint_selection": "minimum_mean_validation_RMSE",
+        "classification": {
+          "accuracy": 0.5086505190311419,
+          "macro_f1": 0.48634938885879003,
+          "macro_precision": 0.4844421903207482,
+          "macro_recall": 0.5020784537050632
+        },
+        "generated_from_checkpoint": "/mnt/d/check point/soilnet_final_runs/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG/validation_best_regression.pth",
+        "generated_from_checkpoint_epoch": 53,
+        "generated_from_checkpoint_sha256": "a9d8de995b0673e9ec39bfc4afac00d6a2a773ad9ffbea0027ff2d0c4fab820c",
+        "n": 289,
+        "regression": {
+          "SM_0": {
+            "mae": 10.661160057391262,
+            "me": 0.8792106164780455,
+            "r2": 0.732900238835456,
+            "rmse": 15.292261269037974
+          },
+          "SM_20": {
+            "mae": 10.26552554397847,
+            "me": 1.1644136732424832,
+            "r2": 0.7435546752157802,
+            "rmse": 14.95936991610372
+          }
+        },
+        "regression_scale": "original_0_to_100_percentage_points"
+      },
+      "validation_metrics_path": "/mnt/d/check point/soilnet_final_runs/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG/validation_metrics.json",
+      "validation_predictions_path": "/mnt/d/check point/soilnet_final_runs/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG/validation_predictions.csv"
+    },
+    {
+      "LI": true,
+      "VICReg": false,
+      "architecture": "SoilNet",
+      "best_epoch": 52,
+      "checkpoint_path": "/mnt/d/check point/soilnet_final_runs/P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG/validation_best_regression.pth",
+      "checkpoint_sha256": "50c0f15567ab71a87b04569790b9cc7afd016989e3899d56e1898d8a6fcfb044",
+      "complexity": {
+        "checkpoint_size_bytes": 44896842,
+        "input_shape": "3x224x224",
+        "li_input_dimension": 1,
+        "parameters": 3682133,
+        "trainable_parameters": 3682133
+      },
+      "config_path": "config/experiments/P1_no_ssl_bestreg.yaml",
+      "config_sha256": "bae1f5e3bae35454b01590d50161dcacf8535fb527b15b5f2f1dd86d11f78281",
+      "experiment_id": "P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG",
+      "frozen": true,
+      "initialization": "historical pre-VICReg ImageNet snapshot",
+      "key": "P1_noSSL",
+      "model_role": "VICReg_ablation_and_architecture_control",
+      "mutable": false,
+      "seed": 20260905,
+      "split_sha256": "8927b8223b8c4c234d264ad9ea62ac2df6161124a79787a2e71eeb5cd23eae2f",
+      "validation_metrics": {
+        "checkpoint_selection": "minimum_mean_validation_RMSE",
+        "classification": {
+          "accuracy": 0.31833910034602075,
+          "macro_f1": 0.286785219838554,
+          "macro_precision": 0.29479428174250466,
+          "macro_recall": 0.29729103981844385
+        },
+        "generated_from_checkpoint": "/mnt/d/check point/soilnet_final_runs/P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG/validation_best_regression.pth",
+        "generated_from_checkpoint_epoch": 52,
+        "generated_from_checkpoint_sha256": "50c0f15567ab71a87b04569790b9cc7afd016989e3899d56e1898d8a6fcfb044",
+        "n": 289,
+        "regression": {
+          "SM_0": {
+            "mae": 12.575761201059942,
+            "me": -1.2928153107323037,
+            "r2": 0.6836395900384262,
+            "rmse": 16.642785826230238
+          },
+          "SM_20": {
+            "mae": 13.31743623311132,
+            "me": -3.1692634585819444,
+            "r2": 0.652408419714456,
+            "rmse": 17.41608487847731
+          }
+        },
+        "regression_scale": "original_0_to_100_percentage_points"
+      },
+      "validation_metrics_path": "/mnt/d/check point/soilnet_final_runs/P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG/validation_metrics.json",
+      "validation_predictions_path": "/mnt/d/check point/soilnet_final_runs/P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG/validation_predictions.csv"
+    },
+    {
+      "LI": true,
+      "VICReg": false,
+      "architecture": "MobileViTv2-0.5 (timm mobilevitv2_050.cvnets_in1k)",
+      "best_epoch": 60,
+      "checkpoint_path": "/mnt/d/check point/soilnet_final_runs/P2_MOBILEVITV2_IMAGENET_LI_BESTREG/validation_best_regression.pth",
+      "checkpoint_sha256": "0a080d5129a2e57f1c2baf420b5af9aadf913fc0aab0d0050b6d662f24c28a8d",
+      "complexity": {
+        "checkpoint_size_bytes": 14601889,
+        "flops_macs": "NOT_REPORTED_NO_PINNED_RELIABLE_COUNTER",
+        "flops_tool": null,
+        "input_shape": "3x224x224",
+        "li_input_dimension": 1,
+        "parameters": 1189189,
+        "trainable_parameters": 1189189
+      },
+      "config_path": "config/experiments/P2_mobilevitv2_imagenet_li_bestreg.yaml",
+      "config_sha256": "b322ffea95daafb372f87404f1baf8ca8c80b33ffea011d0b3b5986c0d5e34d0",
+      "experiment_id": "P2_MOBILEVITV2_IMAGENET_LI_BESTREG",
+      "frozen": true,
+      "initialization": "ImageNet CVNets weights",
+      "key": "P2_MobileViTv2",
+      "model_role": "architecture_control_against_P1_noSSL",
+      "mutable": false,
+      "seed": 20260905,
+      "split_sha256": "8927b8223b8c4c234d264ad9ea62ac2df6161124a79787a2e71eeb5cd23eae2f",
+      "validation_metrics": {
+        "checkpoint_selection": "minimum_mean_validation_RMSE",
+        "classification": {
+          "accuracy": 0.6782006920415224,
+          "macro_f1": 0.6687644960832296,
+          "macro_precision": 0.6804948691155588,
+          "macro_recall": 0.6701954964061639
+        },
+        "generated_from_checkpoint": "/mnt/d/check point/soilnet_final_runs/P2_MOBILEVITV2_IMAGENET_LI_BESTREG/validation_best_regression.pth",
+        "generated_from_checkpoint_epoch": 60,
+        "generated_from_checkpoint_sha256": "0a080d5129a2e57f1c2baf420b5af9aadf913fc0aab0d0050b6d662f24c28a8d",
+        "n": 289,
+        "regression": {
+          "SM_0": {
+            "mae": 6.325552925519053,
+            "me": -0.5971912545728848,
+            "r2": 0.9251630380639039,
+            "rmse": 8.094556035126418
+          },
+          "SM_20": {
+            "mae": 6.497917657079993,
+            "me": -0.00831755139835978,
+            "r2": 0.9190880363960261,
+            "rmse": 8.402766185464799
+          }
+        },
+        "regression_scale": "original_0_to_100_percentage_points"
+      },
+      "validation_metrics_path": "/mnt/d/check point/soilnet_final_runs/P2_MOBILEVITV2_IMAGENET_LI_BESTREG/validation_metrics.json",
+      "validation_predictions_path": "/mnt/d/check point/soilnet_final_runs/P2_MOBILEVITV2_IMAGENET_LI_BESTREG/validation_predictions.csv"
+    }
+  ],
+  "registry_version": 1,
+  "seed": 20260905,
+  "split_counts": {
+    "test": 231,
+    "train": 1407,
+    "validation": 289
+  },
+  "split_sha256": "8927b8223b8c4c234d264ad9ea62ac2df6161124a79787a2e71eeb5cd23eae2f"
+}
