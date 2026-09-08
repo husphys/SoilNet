@@ -29,3 +29,24 @@ soilnet_demo_logs/
 
 # Local model staging
 models/
+# Python/Jupyter
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+
+# Local data
+data/raw/
+
+# Large checkpoints
+checkpoints/*.pth
+checkpoints/**/*.pth
+!checkpoints/deployment/
+!checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth
+!checkpoints/deployment/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG.pth
+
+# Temporary/audit cache
+*.tmp
+results/audit/.cache/
+
+# Secrets
+*.key
