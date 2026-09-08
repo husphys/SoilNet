@@ -1,0 +1,32 @@
+model:
+  expected_experiment_id: P1_SOILNET_VICREG_MU27_NO_LI_BESTREG
+  expected_checkpoint_sha256: a9d8de995b0673e9ec39bfc4afac00d6a2a773ad9ffbea0027ff2d0c4fab820c
+  num_classes: 10
+  image_size: [224, 224]
+  normalization_mean: [0.485, 0.456, 0.406]
+  normalization_std: [0.229, 0.224, 0.225]
+  torch_threads: 4
+
+fuzzy:
+  dry:      {type: trapezoid, points: [0, 0, 30, 45]}
+  moderate: {type: triangle,  points: [30, 50, 70]}
+  wet:      {type: trapezoid, points: [55, 70, 100, 100]}
+  rules_minutes:
+    dry:      {dry: 3.0, moderate: 2.0, wet: 1.0}
+    moderate: {dry: 2.0, moderate: 1.0, wet: 0.0}
+    wet:      {dry: 1.0, moderate: 0.0, wet: 0.0}
+  maximum_duration_seconds: 180
+
+radio:
+  enabled: true
+  ce_pin: 22
+  csn_pin: 0
+  channel: 2
+  poll_delay_ms: 80
+  application_retries: 3
+
+telegram:
+  delete_downloaded_images: true
+
+logging:
+  filename: iphone_telegram_demo.jsonl

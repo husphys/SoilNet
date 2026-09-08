@@ -7,3 +7,4 @@ checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth -filter -d
 *.py text eol=lf
 *.md text eol=lf
 *.csv text eol=lf
+checkpoints/deployment/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG.pth -filter -diff -merge -text

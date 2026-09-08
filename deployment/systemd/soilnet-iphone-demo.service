@@ -1,0 +1,18 @@
+[Unit]
+Description=SoilNet iPhone Telegram irrigation demo
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/SoilNet
+EnvironmentFile=/etc/soilnet/iphone-demo.env
+ExecStart=/home/pi/SoilNet/.venv/bin/python scripts/run_iphone_telegram_demo.py
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

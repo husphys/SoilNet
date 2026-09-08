@@ -1,22 +1,31 @@
-# Local paths and secrets
-config/paths.local.yaml
-.env
-*.key
-
-# Python/Jupyter
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.ipynb_checkpoints/
+# Python
 .venv/
+venv/
+__pycache__/
+*.pyc
 
-# Local data and large checkpoints
-data/raw/
-checkpoints/*.pth
-checkpoints/**/*.pth
-!checkpoints/deployment/
-!checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth
-*.tmp
+# Secrets
+.env
+*.env
+soilnet-demo.env
+secrets/
+credentials/
 
-# Audit caches are local; final CSV/JSON reports remain tracked.
-results/audit/.cache/
+# Local configuration
+config/paths.local.yaml
+
+# Runtime logs
+soilnet_demo_logs/
+*.log
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Packaging artifacts
+*.egg-info/
+!checkpoints/deployment/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG.pth
+
+# Local model staging
+models/
