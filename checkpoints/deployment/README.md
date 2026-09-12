@@ -1,15 +1,13 @@
-# Frozen P0 deployment checkpoint
+# Git-distributed deployment checkpoints
 
-This directory contains exactly one model binary: the frozen, validation-selected
-P0 checkpoint used by the Raspberry Pi latency notebook. It is included so that
-edge benchmarking does not require the training dataset or a Windows `/mnt/d`
-mount.
+This directory contains the two already published validation-selected
+checkpoints used by repository deployment workflows.
 
-- Experiment: `P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG`
-- Selection: minimum validation `(SM0_RMSE + SM20_RMSE) / 2`
-- Selected epoch: 45
-- SHA256: `eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379`
-- Size: below GitHub's 100 MiB per-file limit
+| Experiment | SHA256 |
+|---|---|
+| P0 | `eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379` |
+| P1_noLI | `a9d8de995b0673e9ec39bfc4afac00d6a2a773ad9ffbea0027ff2d0c4fab820c` |
 
-Notebook 11 recomputes the SHA256 and refuses to benchmark a different file.
-No P1/P2, epoch-60, resume, SSL, or historical checkpoint is published here.
+All other manuscript checkpoints are GitHub Release assets described by
+`../checkpoint_manifest.json`. Every consumer must verify SHA256 before
+strict-loading a checkpoint.

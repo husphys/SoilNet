@@ -41,6 +41,7 @@ FINAL_TEST_DIR = REPO / "results/final_test"
 FINAL_TEST_LOCK = FINAL_TEST_DIR / "FINAL_TEST_LOCK.json"
 LEGACY_TEST_MARKER = REPO / "results/final/test_evaluation_completed.json"
 DEPLOYMENT_CHECKPOINT = REPO / "checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth"
+RUN_ARTIFACT_ROOT = Path(os.environ.get("RUN_ARTIFACT_ROOT", "external/soilnet_final_runs"))
 
 
 MODEL_SPECS: dict[str, dict[str, Any]] = {
@@ -48,7 +49,7 @@ MODEL_SPECS: dict[str, dict[str, Any]] = {
         "experiment_id": "P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG",
         "model_role": "primary_full_model",
         "config": "config/experiments/P0_final_soilnet_v4_bestreg.yaml",
-        "checkpoint_path": "/mnt/d/check point/soilnet_final_runs/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG/validation_best_regression.pth",
+        "checkpoint_path": str(RUN_ARTIFACT_ROOT / "P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG/validation_best_regression.pth"),
         "checkpoint_sha256": "eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379",
         "best_epoch": 45,
         "architecture": "SoilNet",
@@ -62,7 +63,7 @@ MODEL_SPECS: dict[str, dict[str, Any]] = {
         "experiment_id": "P1_SOILNET_VICREG_MU27_NO_LI_BESTREG",
         "model_role": "LI_ablation",
         "config": "config/experiments/P1_no_li_bestreg.yaml",
-        "checkpoint_path": "/mnt/d/check point/soilnet_final_runs/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG/validation_best_regression.pth",
+        "checkpoint_path": str(RUN_ARTIFACT_ROOT / "P1_SOILNET_VICREG_MU27_NO_LI_BESTREG/validation_best_regression.pth"),
         "checkpoint_sha256": "a9d8de995b0673e9ec39bfc4afac00d6a2a773ad9ffbea0027ff2d0c4fab820c",
         "best_epoch": 53,
         "architecture": "SoilNet",
@@ -76,7 +77,7 @@ MODEL_SPECS: dict[str, dict[str, Any]] = {
         "experiment_id": "P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG",
         "model_role": "VICReg_ablation_and_architecture_control",
         "config": "config/experiments/P1_no_ssl_bestreg.yaml",
-        "checkpoint_path": "/mnt/d/check point/soilnet_final_runs/P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG/validation_best_regression.pth",
+        "checkpoint_path": str(RUN_ARTIFACT_ROOT / "P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG/validation_best_regression.pth"),
         "checkpoint_sha256": "50c0f15567ab71a87b04569790b9cc7afd016989e3899d56e1898d8a6fcfb044",
         "best_epoch": 52,
         "architecture": "SoilNet",
@@ -90,7 +91,7 @@ MODEL_SPECS: dict[str, dict[str, Any]] = {
         "experiment_id": "P2_MOBILEVITV2_IMAGENET_LI_BESTREG",
         "model_role": "architecture_control_against_P1_noSSL",
         "config": "config/experiments/P2_mobilevitv2_imagenet_li_bestreg.yaml",
-        "checkpoint_path": "/mnt/d/check point/soilnet_final_runs/P2_MOBILEVITV2_IMAGENET_LI_BESTREG/validation_best_regression.pth",
+        "checkpoint_path": str(RUN_ARTIFACT_ROOT / "P2_MOBILEVITV2_IMAGENET_LI_BESTREG/validation_best_regression.pth"),
         "checkpoint_sha256": None,
         "best_epoch": None,
         "architecture": "MobileViTv2-0.5 (timm mobilevitv2_050.cvnets_in1k)",

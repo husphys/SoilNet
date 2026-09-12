@@ -56,12 +56,16 @@ def test_no_cross_split_group_or_sample_leakage():
     assert all(len(value) == 1 for value in sha_splits.values())
 
 
-def test_only_the_explicit_final_p0_deployment_checkpoint_is_in_repository():
-    checkpoints = [path for path in REPO.rglob("*.pth") if path.is_file()]
-    assert [path.relative_to(REPO).as_posix() for path in checkpoints] == [
-        "checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth"
-    ]
-    assert sha256_file(checkpoints[0]) == "eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379"
+def test_only_explicit_deployment_checkpoints_are_in_repository():
+    checkpoints = sorted(path for path in REPO.rglob("*.pth") if path.is_file())
+    assert sorted(path.relative_to(REPO).as_posix() for path in checkpoints) == sorted([
+        "checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth",
+        "checkpoints/deployment/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG.pth",
+    ])
+    assert {sha256_file(path) for path in checkpoints} == {
+        "eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379",
+        "a9d8de995b0673e9ec39bfc4afac00d6a2a773ad9ffbea0027ff2d0c4fab820c",
+    }
 
 
 def test_final_manifest_and_split_hashes_match_v2_lock():

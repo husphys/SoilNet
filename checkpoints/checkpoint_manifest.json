@@ -1,0 +1,79 @@
+{
+  "release_tag": "soilnet-manuscript-repro-v1",
+  "canonical_checkpoint_policy": "Original frozen files; no state-dict export or weight conversion",
+  "checkpoints": [
+    {
+      "key": "P0",
+      "experiment_id": "P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG",
+      "role": "validation-selected supervised checkpoint",
+      "sha256": "eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379",
+      "bytes": 44895306,
+      "location": "checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth",
+      "distribution": "git"
+    },
+    {
+      "key": "P1_noLI",
+      "experiment_id": "P1_SOILNET_VICREG_MU27_NO_LI_BESTREG",
+      "role": "validation-selected supervised checkpoint",
+      "sha256": "a9d8de995b0673e9ec39bfc4afac00d6a2a773ad9ffbea0027ff2d0c4fab820c",
+      "bytes": 44893470,
+      "location": "checkpoints/deployment/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG.pth",
+      "distribution": "git"
+    },
+    {
+      "key": "P1_noSSL",
+      "experiment_id": "P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG",
+      "role": "validation-selected supervised checkpoint",
+      "sha256": "50c0f15567ab71a87b04569790b9cc7afd016989e3899d56e1898d8a6fcfb044",
+      "bytes": 44896842,
+      "location": "checkpoints/release-assets/P1_noSSL_validation_best_regression.pth",
+      "distribution": "github_release_asset"
+    },
+    {
+      "key": "P2",
+      "experiment_id": "P2_MOBILEVITV2_IMAGENET_LI_BESTREG",
+      "role": "validation-selected supervised checkpoint",
+      "sha256": "0a080d5129a2e57f1c2baf420b5af9aadf913fc0aab0d0050b6d662f24c28a8d",
+      "bytes": 14601889,
+      "location": "checkpoints/release-assets/P2_validation_best_regression.pth",
+      "distribution": "github_release_asset"
+    },
+    {
+      "key": "P3",
+      "experiment_id": "P3_MOBILEVITV2_VICREG_LI_BESTREG",
+      "role": "validation-selected supervised checkpoint",
+      "sha256": "e2119a5b7a289925584fba8d3cd57040b7835461fc39d686bda464227de50020",
+      "bytes": 14602017,
+      "location": "checkpoints/release-assets/P3_validation_best_regression.pth",
+      "distribution": "github_release_asset",
+      "evaluation_status": "validation_only_test_set_not_opened"
+    },
+    {
+      "key": "P3_VICReg_encoder",
+      "experiment_id": "P3_MOBILEVITV2_VICREG_LI_BESTREG",
+      "role": "epoch-80 VICReg encoder initialization",
+      "sha256": "32a1a62233d39bf6d5de5f803e7781be81e6a96851efc1531f87ec6f80ec5580",
+      "bytes": 4598415,
+      "location": "checkpoints/release-assets/P3_mobilevitv2_vicreg_encoder_final.pth",
+      "distribution": "github_release_asset"
+    },
+    {
+      "key": "SoilNet_VICReg_mu27_initialization",
+      "experiment_id": "P0/P1_noLI initialization",
+      "role": "frozen VICReg initialization",
+      "sha256": "42599ac025b8d8c8c5b8cca36624665f155e0ff588cd90de2fd47b08cd2d60d8",
+      "bytes": 16208023,
+      "location": "checkpoints/release-assets/SoilNet_vicreg_mu27_initialization.pth",
+      "distribution": "github_release_asset"
+    },
+    {
+      "key": "SoilNet_pre_VICReg_ImageNet_initialization",
+      "experiment_id": "P1_noSSL initialization",
+      "role": "frozen historical pre-VICReg ImageNet snapshot",
+      "sha256": "7fbfac2b637613c6f48b3fef6f2c56be07080eedfba73da1d2b553e0b41f3631",
+      "bytes": 16203247,
+      "location": "checkpoints/release-assets/SoilNet_pre_vicreg_imagenet_initialization.pth",
+      "distribution": "github_release_asset"
+    }
+  ]
+}

@@ -7,4 +7,16 @@ checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth -filter -d
 *.py text eol=lf
 *.md text eol=lf
 *.csv text eol=lf
+data/manifests/final_clean_manifest_v1.csv -text -diff !eol
+data/manifests/labeled_manifest.csv -text -diff !eol
+data/manifests/unlabeled_manifest.csv -text -diff !eol
+data/splits/final_clean_split_v1.csv -text -diff !eol
+data/splits/train_manifest.csv -text -diff !eol
+data/splits/validation_manifest.csv -text -diff !eol
+data/splits/test_manifest.csv -text -diff !eol
+results/frozen/**/*.csv -text -diff !eol
+results/final_test/**/*.csv -text -diff !eol
+results/p3_analysis/**/*.csv -text -diff !eol
+results/paper/**/*.csv -text -diff !eol
+results/edge/**/*.csv -text -diff !eol
 checkpoints/deployment/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG.pth -filter -diff -merge -text

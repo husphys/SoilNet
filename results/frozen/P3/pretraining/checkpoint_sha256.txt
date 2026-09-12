@@ -1,0 +1,2 @@
+mobilevitv2_vicreg_encoder_final.pth  32a1a62233d39bf6d5de5f803e7781be81e6a96851efc1531f87ec6f80ec5580
+vicreg_projector_final.pth  781210a6a56edee8a6304fc372b87aeb528cbb6a66485aa35d3706a00f8a3bb9

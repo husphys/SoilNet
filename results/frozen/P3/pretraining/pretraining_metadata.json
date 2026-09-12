@@ -1,0 +1,128 @@
+{
+  "_public_release": {
+    "normalization": "machine-local path strings replaced; numerical values unchanged",
+    "source_artifact": "release-artifact://P3_MOBILEVITV2_VICREG_LI_BESTREG/pretraining/pretraining_metadata.json"
+  },
+  "batches_per_epoch": 749,
+  "completed_utc": "2026-09-11T15:15:12.342340+00:00",
+  "device": "cuda",
+  "encoder_architecture": "mobilevitv2_050.cvnets_in1k",
+  "encoder_checkpoint_path": "release-artifact://P3_MOBILEVITV2_VICREG_LI_BESTREG/pretraining/mobilevitv2_vicreg_encoder_final.pth",
+  "encoder_checkpoint_sha256": "32a1a62233d39bf6d5de5f803e7781be81e6a96851efc1531f87ec6f80ec5580",
+  "encoder_parameters": 1113593,
+  "epochs": 80,
+  "experiment_id": "P3_MOBILEVITV2_VICREG_LI_BESTREG",
+  "final_vicreg_loss": 17.26908016204834,
+  "gpu_name": "NVIDIA GeForce RTX 3050",
+  "inventory_manifest_path": "repo://data/manifests/dataset_inventory.csv",
+  "inventory_manifest_sha256": "b3fbca582857a48868f1b2e5968a9421ba6056ca4e8b09757fc84b1c7f9ac98c",
+  "projector_checkpoint_path": "release-artifact://P3_MOBILEVITV2_VICREG_LI_BESTREG/pretraining/vicreg_projector_final.pth",
+  "projector_checkpoint_sha256": "781210a6a56edee8a6304fc372b87aeb528cbb6a66485aa35d3706a00f8a3bb9",
+  "projector_parameters": 98688,
+  "resume_resolution": {
+    "archive_dir": "checkpoint-root://soilnet_stale_p3/20260911T043502.049231Z",
+    "artifacts": [
+      {
+        "archived_path": "checkpoint-root://soilnet_stale_p3/20260911T043502.049231Z/pretraining/last_resume_checkpoint.pth",
+        "original_path": "release-artifact://P3_MOBILEVITV2_VICREG_LI_BESTREG/pretraining/last_resume_checkpoint.pth",
+        "sha256": "27f55c9eb92a8e4107d7d54be94630a016fcc40f5b3e57caced329d5d1e38b67"
+      }
+    ],
+    "expected_metadata": {
+      "epoch": "1..79",
+      "experiment_id": "P3_MOBILEVITV2_VICREG_LI_BESTREG",
+      "source_config_sha256": "3c71673597cf72ee811ea1c19a5e69a786de536d46c0cc17a8bc89f4cfa5d664",
+      "timm_model_name": "mobilevitv2_050.cvnets_in1k",
+      "unlabeled_manifest_sha256": "a9ce1cebfd29407deb2b689da5359285e5f0fa5a7e83df8155f001a9173cb773"
+    },
+    "mismatches": {
+      "source_config_sha256": {
+        "expected": "3c71673597cf72ee811ea1c19a5e69a786de536d46c0cc17a8bc89f4cfa5d664",
+        "saved": null
+      }
+    },
+    "reason": "Interrupted P3 SSL resume matched experiment, architecture, and unlabeled manifest; only source_config_sha256 was stale.",
+    "report_path": "checkpoint-root://soilnet_stale_p3/20260911T043502.049231Z/stale_artifact_report.json",
+    "saved_metadata": {
+      "epoch": 4,
+      "experiment_id": "P3_MOBILEVITV2_VICREG_LI_BESTREG",
+      "source_config_sha256": null,
+      "timm_model_name": "mobilevitv2_050.cvnets_in1k",
+      "unlabeled_manifest_sha256": "a9ce1cebfd29407deb2b689da5359285e5f0fa5a7e83df8155f001a9173cb773"
+    },
+    "stale_resume_detected": true,
+    "start_epoch": 1,
+    "status": "STALE_RESUME_ARCHIVED",
+    "test_loader_instantiated": false,
+    "timestamp_utc": "2026-09-11T04:35:02.122893+00:00"
+  },
+  "seed": 20260905,
+  "source_config_sha256": "3c71673597cf72ee811ea1c19a5e69a786de536d46c0cc17a8bc89f4cfa5d664",
+  "test_images_loaded": 0,
+  "test_loader_instantiated": false,
+  "training_completed": true,
+  "training_duration_seconds": 39519.214298997,
+  "training_started_utc": "2026-09-11T04:34:06.069510+00:00",
+  "unlabeled_image_count": 11995,
+  "unlabeled_manifest_path": "release-artifact://P3_MOBILEVITV2_VICREG_LI_BESTREG/pretraining/unlabeled_manifest.csv",
+  "unlabeled_manifest_sha256": "a9ce1cebfd29407deb2b689da5359285e5f0fa5a7e83df8155f001a9173cb773",
+  "vicreg_recipe": {
+    "augmentation": {
+      "color_jitter": {
+        "brightness": 0.4,
+        "contrast": 0.4,
+        "hue": 0.1,
+        "probability": 0.8,
+        "saturation": 0.4
+      },
+      "gaussian_blur": {
+        "kernel_size": 3,
+        "sigma": [
+          0.1,
+          2.0
+        ]
+      },
+      "horizontal_flip_probability": 0.5,
+      "normalization_mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "normalization_std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "random_grayscale_probability": 0.2,
+      "random_resized_crop_scale": [
+        0.8,
+        1.0
+      ]
+    },
+    "batch_size": 16,
+    "dataset_root_relative": "unlabeled_images",
+    "drop_last": true,
+    "epochs": 80,
+    "epsilon": 0.0001,
+    "expected_image_count": 11995,
+    "image_extensions": [
+      ".jpg",
+      ".jpeg",
+      ".png",
+      ".bmp"
+    ],
+    "image_size": 224,
+    "inventory_manifest": "data/manifests/dataset_inventory.csv",
+    "lambda_invariance": 25.0,
+    "learning_rate": 0.0001,
+    "mu_variance": 27.0,
+    "nu_covariance": 1.0,
+    "num_workers": 0,
+    "optimizer": "Adam",
+    "projector_hidden_dim": 256,
+    "projector_input_dim": 256,
+    "projector_output_dim": 128,
+    "use_amp": true,
+    "weight_decay": 0.0
+  }
+}

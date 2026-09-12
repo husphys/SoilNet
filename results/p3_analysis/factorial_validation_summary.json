@@ -1,0 +1,178 @@
+{
+  "title": "FINAL FACTORIAL VALIDATION SUMMARY",
+  "scope": "VALIDATION_ONLY",
+  "validation_sample_count": 289,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260912,
+  "difference_convention": "difference < 0 means the model on the left has lower error",
+  "interaction_formula": "(P3 - P2) - (P0 - P1_noSSL)",
+  "interaction_sign": {
+    "negative": "VICReg error change is more favorable for MobileViTv2 than SoilNet",
+    "positive": "VICReg error change is less favorable for MobileViTv2 than SoilNet"
+  },
+  "exact_mean_validation_RMSE": {
+    "P0": 14.52882816303627,
+    "P1_noSSL": 17.029435352353772,
+    "P2": 8.248661110295608,
+    "P3": 9.852247631514144
+  },
+  "mean_RMSE_effects": {
+    "soilnet_vicreg": {
+      "effect": "SoilNet SSL effect (P0 - P1_noSSL)",
+      "metric": "mean RMSE",
+      "point estimate": -2.5006071893175026,
+      "bootstrap mean": -2.5047136200008344,
+      "95% CI lower": -4.471092439948686,
+      "95% CI upper": -0.5473782723789626,
+      "proportion > 0": 0.0049,
+      "proportion < 0": 0.9951,
+      "replicates": 10000,
+      "seed": 20260912
+    },
+    "mobilevitv2_vicreg": {
+      "effect": "MobileViTv2 SSL effect (P3 - P2)",
+      "metric": "mean RMSE",
+      "point estimate": 1.6035865212185367,
+      "bootstrap mean": 1.5955010777930396,
+      "95% CI lower": 0.42346279004356124,
+      "95% CI upper": 2.828081121402867,
+      "proportion > 0": 0.9973,
+      "proportion < 0": 0.0027,
+      "replicates": 10000,
+      "seed": 20260912
+    },
+    "architecture_x_ssl_interaction": {
+      "effect": "Architecture × SSL interaction: (P3 - P2) - (P0 - P1_noSSL)",
+      "metric": "mean RMSE",
+      "point estimate": 4.104193710536039,
+      "bootstrap mean": 4.1002146977938745,
+      "95% CI lower": 1.854650843750543,
+      "95% CI upper": 6.434163000727997,
+      "proportion > 0": 0.9998,
+      "proportion < 0": 0.0002,
+      "replicates": 10000,
+      "seed": 20260912
+    }
+  },
+  "conclusion": "Validation evidence supports an architecture-dependent VICReg effect: the positive interaction means the VICReg error change is less favorable for MobileViTv2 than for SoilNet.",
+  "validation_alignment": {
+    "P0": {
+      "n": 289,
+      "sample_ids_same_order": true,
+      "relative_paths_same_order": true,
+      "SM0_ground_truth_exact": true,
+      "SM20_ground_truth_exact": true
+    },
+    "P1_noSSL": {
+      "n": 289,
+      "sample_ids_same_order": true,
+      "relative_paths_same_order": true,
+      "SM0_ground_truth_exact": true,
+      "SM20_ground_truth_exact": true
+    },
+    "P2": {
+      "n": 289,
+      "sample_ids_same_order": true,
+      "relative_paths_same_order": true,
+      "SM0_ground_truth_exact": true,
+      "SM20_ground_truth_exact": true
+    },
+    "P3": {
+      "n": 289,
+      "sample_ids_same_order": true,
+      "relative_paths_same_order": true,
+      "SM0_ground_truth_exact": true,
+      "SM20_ground_truth_exact": true
+    }
+  },
+  "identity_verification": [
+    {
+      "model": "P0",
+      "experiment_id": "P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG",
+      "n_validation": 289,
+      "best_epoch": 45,
+      "checkpoint_sha256": "eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379",
+      "identity_verification": "PASS"
+    },
+    {
+      "model": "P1_noSSL",
+      "experiment_id": "P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG",
+      "n_validation": 289,
+      "best_epoch": 52,
+      "checkpoint_sha256": "50c0f15567ab71a87b04569790b9cc7afd016989e3899d56e1898d8a6fcfb044",
+      "identity_verification": "PASS"
+    },
+    {
+      "model": "P2",
+      "experiment_id": "P2_MOBILEVITV2_IMAGENET_LI_BESTREG",
+      "n_validation": 289,
+      "best_epoch": 60,
+      "checkpoint_sha256": "0a080d5129a2e57f1c2baf420b5af9aadf913fc0aab0d0050b6d662f24c28a8d",
+      "identity_verification": "PASS"
+    },
+    {
+      "model": "P3",
+      "experiment_id": "P3_MOBILEVITV2_VICREG_LI_BESTREG",
+      "n_validation": 289,
+      "best_epoch": 58,
+      "checkpoint_sha256": "e2119a5b7a289925584fba8d3cd57040b7835461fc39d686bda464227de50020",
+      "identity_verification": "PASS"
+    }
+  ],
+  "source_artifact_sha256": {
+    "P0": {
+      "predictions": "841eead051a4b11338669045e9bb5e1441e683a49fbed0e3ed3bdcbd773d65e2",
+      "metrics": "614c7e1a8f75c3857c99585009f390ee5c5a5eb3f7c1848aa921be7bde4b77e6",
+      "metadata": "5ee5d0ecb20e567d721f3b6bf0f6690b6545427983da78231cc1cecde3be5ede",
+      "checkpoint": "eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379"
+    },
+    "P1_noSSL": {
+      "predictions": "dd37be94d58aa43484c51ef828f0a1c2a6362d7c6009c6c6c8a282035dd54d87",
+      "metrics": "1254d1bb9475d6a7f526f447c9c36e63259cfddbf9fa7a94903e3857bccc4c60",
+      "metadata": "2a79233b148c8cb95a2e0745fb9e3c2757e91ac594ff5b094205106edc00e53a",
+      "checkpoint": "50c0f15567ab71a87b04569790b9cc7afd016989e3899d56e1898d8a6fcfb044"
+    },
+    "P2": {
+      "predictions": "0e98e61f78b35fa037ba3de70e3d7c0b871b818744cf8a1948bc1841d04f4188",
+      "metrics": "a009614db3aa62ab1d67ac45ee760ddf68a1a25f9e1fb5eb35eae4f6fd48be4d",
+      "metadata": "00ccd215ae397c6ff28cf5c1d8186e49c32ae38372438cd391c49a153a8b0b7e",
+      "checkpoint": "0a080d5129a2e57f1c2baf420b5af9aadf913fc0aab0d0050b6d662f24c28a8d"
+    },
+    "P3": {
+      "predictions": "ab495fabd4dfa061ca89eff37b545efccb1a17206f6e1e1d0f7d4b83b0fb29e1",
+      "metrics": "bb561d05ec83b16eea54b9933a0d677f12a5c915d6cbee0c1617c2e74c879958",
+      "metadata": "84aa13703e036691d1c7d008e446f74dedcc026e8aa9a2129e2eaa43f2bffa14",
+      "checkpoint": "e2119a5b7a289925584fba8d3cd57040b7835461fc39d686bda464227de50020"
+    }
+  },
+  "source_artifacts_unchanged": true,
+  "TEST_SET_OPENED": false,
+  "notebook_sha256": "4dd1df3ef3c869299ec18f539c03a1a084e1451489f18a187a60eb13dd8306d7",
+  "new_artifacts": [
+    {
+      "path": "results/p3_analysis/four_model_validation_metrics.csv",
+      "sha256": "36f3fdf47b957e92025543867b2f0c31c0f532e8586408516934d29636ab53ff"
+    },
+    {
+      "path": "results/p3_analysis/vicreg_paired_bootstrap.csv",
+      "sha256": "4584e31c4f9451d4a0ec746cfd57d821a703a9f1f67cf9b358bbfaa4fc4cf074"
+    },
+    {
+      "path": "results/p3_analysis/vicreg_interaction_bootstrap.csv",
+      "sha256": "7f497295f073dcc36db2dacec62e2fad75059d4eec092a5e87585307931a17c7"
+    },
+    {
+      "path": "notebooks/final_experiments/14_vicreg_architecture_interaction_analysis.ipynb",
+      "sha256": "4dd1df3ef3c869299ec18f539c03a1a084e1451489f18a187a60eb13dd8306d7"
+    },
+    {
+      "path": "scripts/generate_vicreg_interaction_notebook.py",
+      "sha256": "6df256cd892109e27163c2c553025b06bfcafd5d2a69568e42cd876dedfd7c2b"
+    },
+    {
+      "path": "results/p3_analysis/factorial_validation_summary.json",
+      "sha256": null,
+      "note": "Self-hash is intentionally omitted from the JSON itself; verify externally."
+    }
+  ]
+}

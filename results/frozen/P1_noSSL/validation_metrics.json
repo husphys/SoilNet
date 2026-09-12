@@ -1,0 +1,32 @@
+{
+  "_public_release": {
+    "normalization": "machine-local path strings replaced; numerical values unchanged",
+    "source_artifact": "release-artifact://P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG/validation_metrics.json"
+  },
+  "checkpoint_selection": "minimum_mean_validation_RMSE",
+  "classification": {
+    "accuracy": 0.31833910034602075,
+    "macro_f1": 0.286785219838554,
+    "macro_precision": 0.29479428174250466,
+    "macro_recall": 0.29729103981844385
+  },
+  "generated_from_checkpoint": "release-artifact://P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG/validation_best_regression.pth",
+  "generated_from_checkpoint_epoch": 52,
+  "generated_from_checkpoint_sha256": "50c0f15567ab71a87b04569790b9cc7afd016989e3899d56e1898d8a6fcfb044",
+  "n": 289,
+  "regression": {
+    "SM_0": {
+      "mae": 12.575761201059942,
+      "me": -1.2928153107323037,
+      "r2": 0.6836395900384262,
+      "rmse": 16.642785826230238
+    },
+    "SM_20": {
+      "mae": 13.31743623311132,
+      "me": -3.1692634585819444,
+      "r2": 0.652408419714456,
+      "rmse": 17.41608487847731
+    }
+  },
+  "regression_scale": "original_0_to_100_percentage_points"
+}

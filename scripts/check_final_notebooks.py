@@ -19,18 +19,16 @@ from soilnet.io import load_yaml, sha256_file, write_json
 
 
 EXPECTED = [
-    "00_gpu_environment_check.ipynb", "01_P0_final_soilnet.ipynb",
+    "00_gpu_environment_check.ipynb",
     "01_P0_final_soilnet_v4_bestreg.ipynb",
-    "02_P1_ablation_no_li.ipynb", "02_P1_no_li_bestreg.ipynb",
-    "03_P1_ablation_no_ssl.ipynb", "03_P1_no_ssl_bestreg.ipynb",
-    "04_P1_mobilenetv2.ipynb", "05_P1_mobilevitv2.ipynb",
-    "06_P2_mobilenetv3.ipynb", "07_P2_efficientnet_b0.ipynb",
-    "08_P2_classical_ml.ipynb", "09_final_test_evaluation.ipynb",
-    "10_results_summary.ipynb",
+    "02_P1_no_li_bestreg.ipynb",
+    "03_P1_no_ssl_bestreg.ipynb",
     "09_P2_mobilevitv2_imagenet_li_bestreg.ipynb",
     "10_final_frozen_test_evaluation.ipynb",
     "11_raspberry_pi_benchmark.ipynb",
     "12_finalize_paper_artifacts_and_publish.ipynb",
+    "13_P3_mobilevitv2_vicreg_bestreg.ipynb",
+    "14_vicreg_architecture_interaction_analysis.ipynb",
 ]
 CONFIGS = [
     "P0_final_soilnet.yaml", "P0_final_soilnet_v4_bestreg.yaml",
@@ -39,6 +37,7 @@ CONFIGS = [
     "P1_mobilenetv2.yaml", "P1_mobilevitv2.yaml", "P2_mobilenetv3.yaml",
     "P2_efficientnet_b0.yaml", "P2_classical_ml.yaml",
     "P2_mobilevitv2_imagenet_li_bestreg.yaml",
+    "P3_mobilevitv2_vicreg_li_bestreg.yaml",
 ]
 REQUIRED_CONFIG = {
     "experiment_id", "architecture", "initialization", "ssl_checkpoint", "use_li",
@@ -169,6 +168,17 @@ def main() -> int:
                     errors.append(f"publication notebook contains training/evaluation token: {forbidden}")
             if "publish_reproducibility_repository" not in source:
                 errors.append("publication notebook lacks guarded publication entrypoint")
+        if filename == "13_P3_mobilevitv2_vicreg_bestreg.ipynb":
+            if 'split="test"' in source or "build_test_loader" in source or "evaluate_final_test" in source:
+                errors.append("P3 notebook references prohibited test construction/evaluation")
+            if "TEST_LOADER_INSTANTIATED" not in source or "train_experiment" not in source:
+                errors.append("P3 notebook lacks frozen test firewall or supervised workflow")
+        if filename == "14_vicreg_architecture_interaction_analysis.ipynb":
+            for forbidden in ("SoilNetDataset", "DataLoader", "train_experiment", 'split="test"'):
+                if forbidden in source:
+                    errors.append(f"factorial notebook contains prohibited token: {forbidden}")
+            if "TEST_SET_OPENED = False" not in source or 'REPO / "results/frozen"' not in source:
+                errors.append("factorial notebook lacks public frozen-input/test-firewall contract")
     available = set(timm.list_models())
     for filename in CONFIGS:
         config = load_yaml(REPO / "config/experiments" / filename)
@@ -189,6 +199,7 @@ def main() -> int:
                 "P1_SOILNET_VICREG_MU27_NO_LI_BESTREG",
                 "P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG",
                 "P2_MOBILEVITV2_IMAGENET_LI_BESTREG",
+                "P3_MOBILEVITV2_VICREG_LI_BESTREG",
             }:
                 expected = {"epochs": 60, "batch_size": 32, "optimizer": "Adam", "learning_rate": 0.0001, "weight_decay": 0.0}
             else:

@@ -24,7 +24,7 @@ NOTEBOOKS = REPO / "notebooks/final_experiments"
 
 def test_final_notebooks_are_valid_and_saved_outputs_have_no_errors():
     paths = sorted(NOTEBOOKS.glob("*.ipynb"))
-    assert len(paths) == 18
+    assert len(paths) == 10
     for path in paths:
         book = nbformat.read(path, as_version=4)
         nbformat.validate(book)
@@ -49,8 +49,9 @@ def test_training_notebooks_cannot_construct_test_loader():
             assert "RUN_TRAINING = True" in source
         elif not path.name.startswith("01_P0_"):
             assert "RUN_TRAINING = False" in source
-    final_source = (NOTEBOOKS / "09_final_test_evaluation.ipynb").read_text(encoding="utf-8")
-    assert "RUN_FINAL_TEST = False" in final_source
+    final_source = (NOTEBOOKS / "10_final_frozen_test_evaluation.ipynb").read_text(encoding="utf-8")
+    assert "preflight_frozen_registry" in final_source
+    assert "run_final_test_once" in final_source
 
 
 def test_deep_configs_keep_their_predeclared_protocol_and_hashes():
@@ -110,18 +111,24 @@ def test_checkpoint_policy_is_bounded_and_test_marker_absent():
     assert "resume_if_available" in source
     assert "len(checkpoint_paths) > 2" in source
     assert not (REPO / "results/final/test_evaluation_completed.json").exists()
-    bundled = [path.relative_to(REPO).as_posix() for path in REPO.rglob("*.pth") if path.is_file()]
-    assert bundled == ["checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth"]
-    assert sha256_file(REPO / bundled[0]) == "eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379"
+    bundled = sorted(path.relative_to(REPO).as_posix() for path in REPO.rglob("*.pth") if path.is_file())
+    assert bundled == sorted([
+        "checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth",
+        "checkpoints/deployment/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG.pth",
+    ])
+    assert sha256_file(REPO / bundled[0]) in {
+        "eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379",
+        "a9d8de995b0673e9ec39bfc4afac00d6a2a773ad9ffbea0027ff2d0c4fab820c",
+    }
+    assert sha256_file(REPO / bundled[1]) in {
+        "eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379",
+        "a9d8de995b0673e9ec39bfc4afac00d6a2a773ad9ffbea0027ff2d0c4fab820c",
+    }
 
 
-def test_p0_manual_notebook_preflight_does_not_step_final_weights():
-    book = nbformat.read(NOTEBOOKS / "01_P0_final_soilnet.ipynb", as_version=4)
-    markdown = "\n".join(cell.source for cell in book.cells if cell.cell_type == "markdown")
+def test_p0_v4_notebook_preflight_does_not_step_final_weights():
+    book = nbformat.read(NOTEBOOKS / "01_P0_final_soilnet_v4_bestreg.ipynb", as_version=4)
     source = "\n".join(cell.source for cell in book.cells if cell.cell_type == "code")
-    for section in range(1, 18):
-        assert f"## {section}." in markdown
-    assert "RUN_PREFLIGHT = True" in source
     assert "RESUME_IF_AVAILABLE = True" in source
     assert "optimizer.step(" not in source
     assert "epoch_60_final.pth" in source

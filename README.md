@@ -1,96 +1,100 @@
-# SoilNet reproducibility repository
+# SoilNet manuscript reproducibility release
 
-This repository contains the evidence-first, leakage-controlled workflow for the
-final SoilNet manuscript experiments. It preserves historical provenance while
-keeping prospective validation, the one-time held-out test, and deployment
-measurements explicitly separate.
+This repository freezes the code, configurations, data manifests, checkpoints,
+predictions, and analyses used by the final SoilNet experiment set. The task is
+joint prediction of soil moisture at the surface (SM-0) and at 20 cm depth
+(SM-20), with an auxiliary moisture-class output.
 
-## Final contribution
+The registry contains five frozen entries:
 
-The frozen experiment set isolates three questions:
+- **P0:** SoilNet + VICReg + light-intensity input (LI).
+- **P1_noLI:** SoilNet + VICReg without sample-dependent LI.
+- **P1_noSSL:** SoilNet + ImageNet initialization + LI, without VICReg.
+- **P2:** MobileViTv2 + ImageNet initialization + LI.
+- **P3:** MobileViTv2 + VICReg + LI; validation-only follow-up.
 
-- P0: full SoilNet with light intensity (LI) and VICReg mu=27.
-- P1-noLI: the same system without a sample-dependent LI signal.
-- P1-noSSL: the same SoilNet architecture with the exact historical pre-VICReg
-  ImageNet snapshot, LI, and no VICReg.
-- P2-MobileViTv2: `mobilevitv2_050.cvnets_in1k` with ImageNet initialization,
-  the same 32-dimensional LI fusion and dual heads, and no VICReg. Its fair
-  architecture comparison is P1-noSSL versus P2.
+P0, P1_noLI, P1_noSSL, and P2 have frozen held-out-test evidence. **P3 is
+validation-only; its test set was not opened.** The repository reports the
+factorial validation analysis without extending P3 into held-out evaluation.
+It does not make a general superiority or lightweightness claim.
 
-All supervised runs use 60 epochs, batch size 32, Adam at `1e-4`, weight decay
-0, seed 20260905, and no early stopping. Strictly minimum validation
-`(SM0_RMSE + SM20_RMSE) / 2` selects `validation_best_regression.pth`;
-classification never selects a checkpoint.
+## What is frozen
 
-## Dataset QC and split
+- [Experiment registry](reproducibility/EXPERIMENT_REGISTRY.md)
+- [Artifact index](reproducibility/ARTIFACT_INDEX.md)
+- [Reproduction guide](reproducibility/REPRODUCING_RESULTS.md)
+- [Checksums](reproducibility/CHECKSUMS.sha256)
+- [Data provenance and redistribution decision](data/DATA_PROVENANCE.md)
+- [Pre-release audit](reproducibility/PRE_RELEASE_AUDIT.md)
 
-The final dataset contains 1,927 clean unique labeled images after excluding
-conflicting exact-image groups. The fixed split is 1,407 train / 289 validation
-/ 231 held-out test, with SHA256
-`8927b8223b8c4c234d264ad9ea62ac2df6161124a79787a2e71eeb5cd23eae2f`.
-Regression metrics use the original 0-100 percentage-point scale.
+Clean notebook sources are under `notebooks/final_experiments/`. Path-normalized
+executed copies retained for provenance are under
+`reproducibility/executed_notebooks/`. Final run artifacts are indexed under
+`results/frozen/`; statistical outputs remain under `results/final_test/` and
+`results/p3_analysis/`.
 
-Raw images are not included. Configure an ignored `config/paths.local.yaml`
-from `config/paths.example.yaml`, or set `DATA_ROOT`, `CHECKPOINT_ROOT`, and
-`RUN_ARTIFACT_ROOT`.
+## Dataset boundary
 
-## Final notebook order
+The labeled manifest contains 1,927 unique image-measurement pairs split into
+1,407 train, 289 validation, and 231 held-out test samples. The VICReg unlabeled
+pool manifest contains 11,995 images. Both manifests use stable relative paths,
+sample identifiers where applicable, and per-file SHA256 values.
 
-1. `01_P0_final_soilnet_v4_bestreg.ipynb` — completed/frozen on the CUDA workstation.
-2. `02_P1_no_li_bestreg.ipynb` — completed/frozen on the CUDA workstation.
-3. `03_P1_no_ssl_bestreg.ipynb` — completed/frozen on the CUDA workstation.
-4. `09_P2_mobilevitv2_imagenet_li_bestreg.ipynb` — train/validate P2 on the CUDA workstation; never accesses test.
-5. `10_final_frozen_test_evaluation.ipynb` — evaluate the four frozen models once on the CUDA workstation; the only test-opening notebook.
-6. `11_raspberry_pi_benchmark.ipynb` — benchmark frozen P0 on actual Raspberry Pi hardware and automatically commit/push only `results/edge/`; no dataset access.
-7. `12_finalize_paper_artifacts_and_publish.ipynb` — safely fetch/rebase the Pi commit, restore local experiment outputs, aggregate, and publish; no training/evaluation.
+Raw images are **not** distributed because redistribution rights have not been
+verified for the complete labeled and unlabeled collections. In particular,
+third-party/web-derived provenance within the unlabeled pool is not licensed
+here. See `data/DATA_PROVENANCE.md`; do not describe this release as making all
+data publicly available.
 
-Restart the `soilnet` kernel and use **Run All** for each remaining notebook in
-order. Clone/pull the bootstrap repository on the Pi once and configure its Git
-identity/authentication before Notebook 11. No benchmark-result files are copied
-manually: Notebook 11 pushes them and Notebook 12 retrieves them automatically.
+## Checkpoints
 
-## Test-lock policy
+The P0 and P1_noLI inference checkpoints are stored directly in the repository.
+The other canonical checkpoints and retraining initializations are distributed
+as assets of GitHub Release `soilnet-manuscript-repro-v1` to keep large binaries
+out of normal Git history. No checkpoint was converted or re-exported. See
+`checkpoints/checkpoint_manifest.json` and `checkpoints/README.md`.
 
-Notebook 10 validates the exact four-model registry, checkpoint hashes, split,
-counts, validation artifacts, and immutability before constructing one shared
-test dataset/loader. It writes `results/final_test/FINAL_TEST_LOCK.json` last.
-After that lock exists, no training or model change may use test outcomes.
+## Quick verification without retraining
 
-## Result map
-
-- `results/model_registry/`: four frozen validation-selected models.
-- `results/final_test/`: per-sample predictions, metrics, paired bootstrap,
-  figures, and final test lock.
-- `results/edge/`: actual Raspberry Pi environment and latency measurements.
-- `results/paper/`: numbered manuscript-ready tables and consolidated summary.
-- `results/audit/`: dataset, checkpoint, and provenance audits.
-
-## Raspberry Pi benchmark
-
-The single frozen P0 deployment checkpoint is deliberately bundled at
-`checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth`
-(SHA256 `eba009dfd45ec21174a8e40b16148e0455e902286c7db55933487221da761379`).
-No `/mnt/d` mount or separate checkpoint transfer is required. Notebook 11
-refuses to run unless Raspberry Pi hardware is detected. It stages exactly five
-allowlisted edge-result files, safely rebases, and pushes them to `main`.
-
-## Environment and verification
-
-Create the pinned environment with `environment.yml`/`requirements-lock.txt`,
-then run:
+Create the environment, then recompute all frozen prediction-level metrics and
+bootstrap analyses:
 
 ```bash
-conda run -n soilnet python scripts/check_final_notebooks.py --read-only
-conda run -n soilnet pytest -q
+conda env create -f environment/soilnet.yml
+conda run -n soilnet pip install -r environment/requirements-lock.txt
+conda run -n soilnet python scripts/verify_reproducibility_release.py
+conda run -n soilnet python scripts/reproduce_frozen_analyses.py \
+  --output-dir reproduced-results
 ```
 
-Publication targets only `https://github.com/husphys-gif/SoilNet.git`. The
-legacy `https://github.com/diy-hus/SoilNet` repository is historical provenance
-and is never a push target. Notebook 12 uses an explicit staging allowlist and
-will stop for missing Git identity/authentication without printing credentials.
+This analysis command does not instantiate a dataset or open image files. It
+uses the already frozen prediction CSVs; the P3 test boundary remains closed.
+Checkpoint-based inference and optional retraining instructions are explicitly
+separated in `reproducibility/REPRODUCING_RESULTS.md`.
 
-## Citation and license
+## Final notebook sequence
 
-See `CITATION.cff` for software citation metadata and `LICENSE` for the MIT
-license. Cite the associated SoilNet paper when bibliographic details become
-available; this repository does not invent missing paper metadata.
+The clean source notebooks retain the original workflow order:
+
+1. `01_P0_final_soilnet_v4_bestreg.ipynb`
+2. `02_P1_no_li_bestreg.ipynb`
+3. `03_P1_no_ssl_bestreg.ipynb`
+4. `09_P2_mobilevitv2_imagenet_li_bestreg.ipynb`
+5. `10_final_frozen_test_evaluation.ipynb` — existing P0/P1/P2 test evidence only
+6. `11_raspberry_pi_benchmark.ipynb`
+7. `12_finalize_paper_artifacts_and_publish.ipynb`
+8. `13_P3_mobilevitv2_vicreg_bestreg.ipynb` — validation only
+9. `14_vicreg_architecture_interaction_analysis.ipynb` — frozen validation analysis
+
+## Embedded prototype
+
+The repository includes an embedded Raspberry Pi prototype and frozen benchmark
+evidence under `deployment/`, `firmware/`, and `results/edge/`. These artifacts
+document a prototype implementation; they do not establish a generalized causal
+irrigation-saving claim.
+
+## License and citation
+
+Software is released under the [MIT License](LICENSE). This software license
+does not grant redistribution rights for withheld source images. See
+`CITATION.cff` for citation metadata.

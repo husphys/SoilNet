@@ -1,0 +1,32 @@
+{
+  "_public_release": {
+    "normalization": "machine-local path strings replaced; numerical values unchanged",
+    "source_artifact": "release-artifact://P2_MOBILEVITV2_IMAGENET_LI_BESTREG/validation_metrics.json"
+  },
+  "checkpoint_selection": "minimum_mean_validation_RMSE",
+  "classification": {
+    "accuracy": 0.6782006920415224,
+    "macro_f1": 0.6687644960832296,
+    "macro_precision": 0.6804948691155588,
+    "macro_recall": 0.6701954964061639
+  },
+  "generated_from_checkpoint": "release-artifact://P2_MOBILEVITV2_IMAGENET_LI_BESTREG/validation_best_regression.pth",
+  "generated_from_checkpoint_epoch": 60,
+  "generated_from_checkpoint_sha256": "0a080d5129a2e57f1c2baf420b5af9aadf913fc0aab0d0050b6d662f24c28a8d",
+  "n": 289,
+  "regression": {
+    "SM_0": {
+      "mae": 6.325552925519053,
+      "me": -0.5971912545728848,
+      "r2": 0.9251630380639039,
+      "rmse": 8.094556035126418
+    },
+    "SM_20": {
+      "mae": 6.497917657079993,
+      "me": -0.00831755139835978,
+      "r2": 0.9190880363960261,
+      "rmse": 8.402766185464799
+    }
+  },
+  "regression_scale": "original_0_to_100_percentage_points"
+}

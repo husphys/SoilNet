@@ -80,7 +80,7 @@ def load_verified_soilnet_initialization(
 
 def build_model(
     config: dict[str, Any], checkpoint_root: Path, *, data_root: Path | None = None,
-    pretrained_override: bool | None = None,
+    run_artifact_root: Path | None = None, pretrained_override: bool | None = None,
 ):
     architecture = config["architecture"]
     initialization = config["initialization"]
@@ -120,12 +120,55 @@ def build_model(
             raise RuntimeError(f"Unresolved timm model for {config['experiment_id']}")
         if not available_timm_model(model_name):
             raise RuntimeError(f"timm model is unavailable in this environment: {model_name}")
+        ssl = config.get("ssl_checkpoint")
         model = TimmFusionDualHead(
             model_name,
             num_classes=int(config["num_classes"]),
-            pretrained=pretrained,
+            # A verified P3 checkpoint supplies the complete backbone state.
+            # Avoid a redundant ImageNet download before strict replacement.
+            pretrained=pretrained and not ssl,
             use_light=bool(config["use_li"]),
         )
+        if ssl:
+            if config.get("experiment_id") != "P3_MOBILEVITV2_VICREG_LI_BESTREG":
+                raise RuntimeError("Unsupported SSL checkpoint for timm baseline")
+            if ssl.get("scope") != "RUN_ARTIFACT_ROOT" or run_artifact_root is None:
+                raise RuntimeError("P3 VICReg initialization requires RUN_ARTIFACT_ROOT")
+            checkpoint_path = run_artifact_root / ssl["relative_path"]
+            observed = sha256_file(checkpoint_path)
+            if observed != ssl.get("sha256"):
+                raise RuntimeError(f"P3 VICReg checkpoint SHA256 mismatch: {observed}")
+            checkpoint = torch.load(checkpoint_path, map_location="cpu", weights_only=True)
+            state = checkpoint.get("backbone_state_dict") if isinstance(checkpoint, dict) else None
+            if not isinstance(state, dict):
+                raise RuntimeError("P3 VICReg checkpoint has no backbone_state_dict")
+            expected = model.backbone.state_dict()
+            missing = sorted(set(expected) - set(state))
+            unexpected = sorted(set(state) - set(expected))
+            shape_mismatches = sorted(
+                key for key in expected
+                if key in state and tuple(expected[key].shape) != tuple(state[key].shape)
+            )
+            if missing or unexpected or shape_mismatches:
+                raise RuntimeError(
+                    "P3 VICReg backbone is not strict-compatible: "
+                    f"missing={len(missing)}, unexpected={len(unexpected)}, "
+                    f"shape_mismatches={len(shape_mismatches)}"
+                )
+            result = model.backbone.load_state_dict(state, strict=True)
+            load_report = {
+                "source_kind": "mobilevitv2_vicreg_ssl",
+                "source_path": str(checkpoint_path),
+                "checkpoint_sha256": observed,
+                "vicreg_checkpoint_loaded": True,
+                "matched_keys": len(state),
+                "missing_keys": list(result.missing_keys),
+                "unexpected_keys": list(result.unexpected_keys),
+                "shape_mismatches": shape_mismatches,
+                "encoder_architecture": checkpoint.get("encoder_architecture"),
+                "pretraining_epoch": checkpoint.get("epoch"),
+                "unlabeled_manifest_sha256": checkpoint.get("unlabeled_manifest_sha256"),
+            }
     return model, load_report
 
 

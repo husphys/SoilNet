@@ -28,7 +28,7 @@ soilnet_demo_logs/
 !checkpoints/deployment/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG.pth
 
 # Local model staging
-models/
+/models/
 # Python/Jupyter
 .pytest_cache/
 .ipynb_checkpoints/
@@ -50,3 +50,17 @@ results/audit/.cache/
 
 # Secrets
 *.key
+*.pem
+id_rsa
+id_ed25519
+*.credentials
+
+# Local reproduction products and downloaded Release assets
+reproduced-results/
+checkpoints/release-assets/
+
+# Caches and temporary notebook files
+.cache/
+*.tmp
+*.bak
+*~

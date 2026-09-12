@@ -1,0 +1,27 @@
+Captured before reproducibility packaging on 2026-09-12 UTC.
+
+$ git status --porcelain=v1 --branch
+## HEAD (no branch)
+ M src/soilnet/models/factory.py
+ M src/soilnet/training/engine.py
+ M src/soilnet/utils/experiment.py
+?? config/experiments/P3_mobilevitv2_vicreg_li_bestreg.yaml
+?? notebooks/final_experiments/13_P3_mobilevitv2_vicreg_bestreg.ipynb
+?? notebooks/final_experiments/14_vicreg_architecture_interaction_analysis.ipynb
+?? results/p3_analysis/
+?? scripts/generate_p3_notebook.py
+?? scripts/generate_vicreg_interaction_notebook.py
+?? scripts/run_p3_mobilevitv2_vicreg.py
+?? src/soilnet/training/vicreg.py
+?? tests/test_p3_mobilevitv2_vicreg.py
+
+$ git branch --show-current
+
+$ git remote -v
+origin	https://github.com/husphys-gif/SoilNet.git (fetch)
+origin	https://github.com/husphys-gif/SoilNet.git (push)
+publication	https://github.com/husphys-gif/SoilNet.git (fetch)
+publication	https://github.com/husphys-gif/SoilNet.git (push)
+
+$ git rev-parse HEAD
+0a9438928aeac62ec0d8255b2b402c03dba6cf67

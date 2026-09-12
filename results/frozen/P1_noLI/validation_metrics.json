@@ -1,0 +1,32 @@
+{
+  "_public_release": {
+    "normalization": "machine-local path strings replaced; numerical values unchanged",
+    "source_artifact": "release-artifact://P1_SOILNET_VICREG_MU27_NO_LI_BESTREG/validation_metrics.json"
+  },
+  "checkpoint_selection": "minimum_mean_validation_RMSE",
+  "classification": {
+    "accuracy": 0.5086505190311419,
+    "macro_f1": 0.48634938885879003,
+    "macro_precision": 0.4844421903207482,
+    "macro_recall": 0.5020784537050632
+  },
+  "generated_from_checkpoint": "release-artifact://P1_SOILNET_VICREG_MU27_NO_LI_BESTREG/validation_best_regression.pth",
+  "generated_from_checkpoint_epoch": 53,
+  "generated_from_checkpoint_sha256": "a9d8de995b0673e9ec39bfc4afac00d6a2a773ad9ffbea0027ff2d0c4fab820c",
+  "n": 289,
+  "regression": {
+    "SM_0": {
+      "mae": 10.661160057391262,
+      "me": 0.8792106164780455,
+      "r2": 0.732900238835456,
+      "rmse": 15.292261269037974
+    },
+    "SM_20": {
+      "mae": 10.26552554397847,
+      "me": 1.1644136732424832,
+      "r2": 0.7435546752157802,
+      "rmse": 14.95936991610372
+    }
+  },
+  "regression_scale": "original_0_to_100_percentage_points"
+}

@@ -4,6 +4,7 @@ import csv
 import json
 import os
 import platform
+import time
 from datetime import datetime, timezone
 from importlib import metadata as package_metadata
 from pathlib import Path
@@ -92,7 +93,8 @@ def run_one_batch_preflight(
     set_determinism(int(context.config["seed"]))
     selected = torch.device(device or ("cuda" if torch.cuda.is_available() else "cpu"))
     model, load_report = build_model(
-        context.config, context.checkpoint_root, data_root=context.data_root
+        context.config, context.checkpoint_root, data_root=context.data_root,
+        run_artifact_root=context.run_artifact_root,
     )
     model.to(selected)
     optimizer = build_optimizer(model, context.config)
@@ -263,6 +265,8 @@ def train_experiment(
     context: ExperimentContext, *, resume_if_available: bool = True,
 ) -> dict[str, Any]:
     """Execute the config-locked train/validation protocol; never loads test."""
+    started_monotonic = time.monotonic()
+    started_utc = datetime.now(timezone.utc).isoformat()
     if not torch.cuda.is_available():
         raise RuntimeError("GPU_BLOCKED: full training requires CUDA")
     if context.config.get("use_amp") is not False:
@@ -289,7 +293,8 @@ def train_experiment(
         elif existing_files:
             raise RuntimeError("STOP: BESTREG output directory is not empty and has no valid rolling resume checkpoint")
     model, load_report = build_model(
-        context.config, context.checkpoint_root, data_root=context.data_root
+        context.config, context.checkpoint_root, data_root=context.data_root,
+        run_artifact_root=context.run_artifact_root,
     )
     device = torch.device("cuda")
     model.to(device)
@@ -389,8 +394,16 @@ def train_experiment(
             "validation_total_loss": row["validation_total_loss"],
             "SM0_RMSE": row["validation_SM_0_rmse"],
             "SM0_MAE": row["validation_SM_0_mae"],
+            "SM0_R2": row["validation_SM_0_r2"],
             "SM20_RMSE": row["validation_SM_20_rmse"],
             "SM20_MAE": row["validation_SM_20_mae"],
+            "SM20_R2": row["validation_SM_20_r2"],
+            "mean_validation_RMSE": row.get("mean_regression_RMSE"),
+            "current_best_epoch": best_epoch if best_regression_selection else None,
+            "current_best_mean_validation_RMSE": (
+                best_mean_val_rmse if best_regression_selection else None
+            ),
+            "best_checkpoint_updated": row.get("is_best_regression", False),
             "classification_accuracy": row["validation_accuracy"],
             "Macro-F1": row["validation_macro_f1"],
             "regression_metric_scale": "original_0_to_100_percentage_points",
@@ -449,6 +462,8 @@ def train_experiment(
         "checkpoint_selection": context.config.get("checkpoint_selection", "fixed_endpoint"),
         "selection_formula": context.config.get("selection_formula"),
         "training_completed": True,
+        "training_started_utc": started_utc,
+        "training_duration_seconds": time.monotonic() - started_monotonic,
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "completed_utc": datetime.now(timezone.utc).isoformat(),
         "git_commit": current_git_commit(Path(__file__).resolve().parents[3]),

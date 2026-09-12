@@ -1,0 +1,90 @@
+experiment_id: P3_MOBILEVITV2_VICREG_LI_BESTREG
+experiment_kind: deep
+protocol_status: PROTOCOL_REVISED_PRE_TEST
+protocol_revision: 1
+protocol_version: P3-mobilevitv2-vicreg-bestreg-v1
+ablation_type: vicreg_initialization_on_fixed_mobilevitv2
+scientific_question: Does VICReg improve MobileViTv2 when every supervised factor is fixed to P2?
+architecture: MobileViTv2
+architecture_role: vicreg_architecture_dependency_control
+timm_model_name: mobilevitv2_050.cvnets_in1k
+initialization: imagenet_then_vicreg
+initialization_checkpoint: null
+ssl: VICReg
+mu: 27.0
+ssl_checkpoint: null
+initialization_provenance:
+  source: timm/mobilevitv2_050.cvnets_in1k then in-experiment VICReg
+  timm_model_name: mobilevitv2_050.cvnets_in1k
+  pretrained_tag: cvnets_in1k
+  pretrained_family: ImageNet
+  vicreg_checkpoint_loaded: true
+  soilnet_vicreg_checkpoint_loaded: false
+vicreg_pretraining:
+  dataset_root_relative: unlabeled_images
+  inventory_manifest: data/manifests/dataset_inventory.csv
+  expected_image_count: 11995
+  image_extensions: [.jpg, .jpeg, .png, .bmp]
+  image_size: 224
+  epochs: 80
+  batch_size: 16
+  optimizer: Adam
+  learning_rate: 0.0001
+  weight_decay: 0.0
+  use_amp: true
+  drop_last: true
+  num_workers: 0
+  projector_input_dim: 256
+  projector_hidden_dim: 256
+  projector_output_dim: 128
+  lambda_invariance: 25.0
+  mu_variance: 27.0
+  nu_covariance: 1.0
+  epsilon: 0.0001
+  augmentation:
+    random_resized_crop_scale: [0.8, 1.0]
+    horizontal_flip_probability: 0.5
+    color_jitter: {brightness: 0.4, contrast: 0.4, saturation: 0.4, hue: 0.1, probability: 0.8}
+    random_grayscale_probability: 0.2
+    gaussian_blur: {kernel_size: 3, sigma: [0.1, 2.0]}
+    normalization_mean: [0.485, 0.456, 0.406]
+    normalization_std: [0.229, 0.224, 0.225]
+use_li: true
+li_ablation_strategy: null
+li_fusion: normalized_scalar_to_32D_Linear_ReLU_then_feature_concatenation
+num_classes: 10
+class_mapping: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+dataset_manifest: data/manifests/final_clean_manifest_v1.csv
+dataset_manifest_sha256: 8ff45054d4b8e3df9758d0c112dc16719572b2267906fb3a5ed5b3262a6732bd
+split: data/splits/final_clean_split_v1.csv
+split_sha256: 8927b8223b8c4c234d264ad9ea62ac2df6161124a79787a2e71eeb5cd23eae2f
+split_counts: {train: 1407, validation: 289, test: 231}
+seed: 20260905
+epochs: 60
+batch_size: 32
+optimizer: Adam
+learning_rate: 0.0001
+weight_decay: 0.0
+loss:
+  regression: MSELoss
+  classification: CrossEntropyLoss
+  regression_weight: 1.0
+  classification_weight: 1.0
+metrics:
+  regression: [RMSE, MAE, R2, ME]
+  classification: [Accuracy, Macro-F1, Macro-Precision, Macro-Recall]
+image_size: [224, 224]
+normalization_mean: [0.485, 0.456, 0.406]
+normalization_std: [0.229, 0.224, 0.225]
+train_augmentation: deterministic_resize_only_historical_evidence
+validation_transform: deterministic
+use_amp: false
+num_workers: 0
+primary_task: regression
+save_validation_best: true
+checkpoint_selection: minimum_mean_validation_RMSE
+selection_formula: (SM0_RMSE + SM20_RMSE) / 2
+primary_checkpoint: validation_best_regression.pth
+epoch_60_checkpoint: epoch_60_final.pth
+output_dir: P3_MOBILEVITV2_VICREG_LI_BESTREG/supervised
+test_evaluation: prohibited_in_training_notebook

@@ -1,0 +1,32 @@
+{
+  "_public_release": {
+    "normalization": "machine-local path strings replaced; numerical values unchanged",
+    "source_artifact": "release-artifact://P3_MOBILEVITV2_VICREG_LI_BESTREG/supervised/validation_metrics.json"
+  },
+  "checkpoint_selection": "minimum_mean_validation_RMSE",
+  "classification": {
+    "accuracy": 0.6678200692041523,
+    "macro_f1": 0.6371890840809461,
+    "macro_precision": 0.6443494956366809,
+    "macro_recall": 0.6393380187087333
+  },
+  "generated_from_checkpoint": "release-artifact://P3_MOBILEVITV2_VICREG_LI_BESTREG/supervised/validation_best_regression.pth",
+  "generated_from_checkpoint_epoch": 58,
+  "generated_from_checkpoint_sha256": "e2119a5b7a289925584fba8d3cd57040b7835461fc39d686bda464227de50020",
+  "n": 289,
+  "regression": {
+    "SM_0": {
+      "mae": 7.084054287742166,
+      "me": 0.3325084328238939,
+      "r2": 0.8891937902909189,
+      "rmse": 9.849564062455903
+    },
+    "SM_20": {
+      "mae": 7.075375991090358,
+      "me": -0.35636358875716845,
+      "r2": 0.8887050711366011,
+      "rmse": 9.854931200572386
+    }
+  },
+  "regression_scale": "original_0_to_100_percentage_points"
+}

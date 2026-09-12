@@ -1,0 +1,138 @@
+{
+  "_public_release": {
+    "normalization": "machine-local path strings replaced; numerical values unchanged",
+    "source_artifact": "release-artifact://P2_MOBILEVITV2_IMAGENET_LI_BESTREG/run_metadata.json"
+  },
+  "ablation_type": "architecture_control_against_P1_noSSL",
+  "batch_size": 32,
+  "best_SM0_RMSE": 8.094556035126418,
+  "best_SM20_RMSE": 8.402766185464799,
+  "best_epoch": 60,
+  "best_mean_validation_RMSE": 8.248661110295608,
+  "bitwise_reproducibility_across_hardware_claimed": false,
+  "checkpoint_count": 2,
+  "checkpoint_path": "release-artifact://P2_MOBILEVITV2_IMAGENET_LI_BESTREG/validation_best_regression.pth",
+  "checkpoint_selection": "minimum_mean_validation_RMSE",
+  "checkpoint_sha256": "0a080d5129a2e57f1c2baf420b5af9aadf913fc0aab0d0050b6d662f24c28a8d",
+  "checkpoint_total_bytes": 29193006,
+  "completed_utc": "2026-09-06T14:29:54.743081+00:00",
+  "complexity": {
+    "checkpoint_size_bytes": 14601889,
+    "flops_macs": "NOT_REPORTED_NO_PINNED_RELIABLE_COUNTER",
+    "flops_tool": null,
+    "input_shape": "3x224x224",
+    "li_input_dimension": 1,
+    "parameters": 1189189,
+    "trainable_parameters": 1189189
+  },
+  "config_path": "repo://config/experiments/P2_mobilevitv2_imagenet_li_bestreg.yaml",
+  "config_sha256": "b322ffea95daafb372f87404f1baf8ca8c80b33ffea011d0b3b5986c0d5e34d0",
+  "cuda_build": "11.8",
+  "dataset_manifest_sha256": "8ff45054d4b8e3df9758d0c112dc16719572b2267906fb3a5ed5b3262a6732bd",
+  "device": "cuda",
+  "epoch_60_checkpoint_path": "release-artifact://P2_MOBILEVITV2_IMAGENET_LI_BESTREG/epoch_60_final.pth",
+  "epoch_60_checkpoint_sha256": "01a08763b07a057f1647d8f29d7e09a538db552939477db1843f167e4b6e00ff",
+  "epochs": 60,
+  "epochs_completed": 60,
+  "experiment_id": "P2_MOBILEVITV2_IMAGENET_LI_BESTREG",
+  "final_checkpoint_sha256": "01a08763b07a057f1647d8f29d7e09a538db552939477db1843f167e4b6e00ff",
+  "final_training_metrics": {
+    "classification": {
+      "accuracy": 0.9893390191897654,
+      "macro_f1": 0.9900499761645467,
+      "macro_precision": 0.9901861335344979,
+      "macro_recall": 0.9899898201939749
+    },
+    "n": 1407,
+    "regression": {
+      "SM_0": {
+        "mae": 3.504158039781839,
+        "me": -0.4712148091643943,
+        "r2": 0.9752703427284128,
+        "rmse": 4.468627172241621
+      },
+      "SM_20": {
+        "mae": 3.613605918459377,
+        "me": 0.02077176138578617,
+        "r2": 0.9741980224309125,
+        "rmse": 4.5719806027890275
+      }
+    },
+    "regression_scale": "original_0_to_100_percentage_points"
+  },
+  "git_commit": "UNCOMMITTED",
+  "gpu_name": "NVIDIA GeForce RTX 3050",
+  "initialization_checkpoint_sha256": null,
+  "initialization_load_report": null,
+  "initialization_provenance": {
+    "pretrained_family": "ImageNet",
+    "pretrained_tag": "cvnets_in1k",
+    "source": "timm/mobilevitv2_050.cvnets_in1k",
+    "timm_model_name": "mobilevitv2_050.cvnets_in1k",
+    "vicreg_checkpoint_loaded": false
+  },
+  "initialization_source_kind": null,
+  "learning_rate": 0.0001,
+  "li_ablation_strategy": null,
+  "li_consumed_by_model": true,
+  "lr": 0.0001,
+  "manifest_sha256": "8ff45054d4b8e3df9758d0c112dc16719572b2267906fb3a5ed5b3262a6732bd",
+  "model_architecture": "MobileViTv2",
+  "optimizer": "Adam",
+  "primary_checkpoint_epoch": 60,
+  "primary_checkpoint_path": "release-artifact://P2_MOBILEVITV2_IMAGENET_LI_BESTREG/validation_best_regression.pth",
+  "primary_checkpoint_sha256": "0a080d5129a2e57f1c2baf420b5af9aadf913fc0aab0d0050b6d662f24c28a8d",
+  "primary_task": "regression",
+  "protocol_version": "P2-mobilevitv2-bestreg-v1",
+  "python": "3.11.15",
+  "pytorch": "2.6.0+cu118",
+  "seed": 20260905,
+  "selected_ssl_checkpoint_sha256": null,
+  "selection_formula": "(SM0_RMSE + SM20_RMSE) / 2",
+  "split_counts": {
+    "test": 231,
+    "train": 1407,
+    "validation": 289
+  },
+  "split_sha256": "8927b8223b8c4c234d264ad9ea62ac2df6161124a79787a2e71eeb5cd23eae2f",
+  "ssl_checkpoint_sha256": null,
+  "ssl_load_report": null,
+  "test_count": 231,
+  "test_evaluated": "NO",
+  "timestamp": "2026-09-06T14:29:54.743021+00:00",
+  "timm": "1.0.29",
+  "torchvision": "0.21.0+cu118",
+  "train_count": 1407,
+  "training_completed": true,
+  "validation_count": 289,
+  "validation_metrics": {
+    "checkpoint_selection": "minimum_mean_validation_RMSE",
+    "classification": {
+      "accuracy": 0.6782006920415224,
+      "macro_f1": 0.6687644960832296,
+      "macro_precision": 0.6804948691155588,
+      "macro_recall": 0.6701954964061639
+    },
+    "generated_from_checkpoint": "release-artifact://P2_MOBILEVITV2_IMAGENET_LI_BESTREG/validation_best_regression.pth",
+    "generated_from_checkpoint_epoch": 60,
+    "generated_from_checkpoint_sha256": "0a080d5129a2e57f1c2baf420b5af9aadf913fc0aab0d0050b6d662f24c28a8d",
+    "n": 289,
+    "regression": {
+      "SM_0": {
+        "mae": 6.325552925519053,
+        "me": -0.5971912545728848,
+        "r2": 0.9251630380639039,
+        "rmse": 8.094556035126418
+      },
+      "SM_20": {
+        "mae": 6.497917657079993,
+        "me": -0.00831755139835978,
+        "r2": 0.9190880363960261,
+        "rmse": 8.402766185464799
+      }
+    },
+    "regression_scale": "original_0_to_100_percentage_points"
+  },
+  "vicreg_checkpoint_loaded": false,
+  "weight_decay": 0.0
+}

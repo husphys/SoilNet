@@ -104,12 +104,17 @@ def test_figures_are_built_from_saved_prediction_csvs():
     assert "prediction_file" in figure_source
 
 
-def test_rpi_gate_and_single_bundled_checkpoint():
+def test_rpi_gate_and_git_distributed_checkpoints_are_allowlisted():
     with pytest.raises(RuntimeError, match="RPI_HARDWARE_REQUIRED"):
         require_raspberry_pi_hardware({"device_tree_model": "desktop", "cpu_model": "x86"})
     checkpoint = REPO / "checkpoints/deployment/P0_FINAL_SOILNET_VICREG_MU27_LI_V4_BESTREG.pth"
     assert checkpoint.is_file() and sha256_file(checkpoint) == P0_SHA256
-    assert [path for path in (REPO / "checkpoints").rglob("*.pth")] == [checkpoint]
+    p1_checkpoint = REPO / "checkpoints/deployment/P1_SOILNET_VICREG_MU27_NO_LI_BESTREG.pth"
+    assert p1_checkpoint.is_file()
+    assert sha256_file(p1_checkpoint) == MODEL_SPECS["P1_noLI"]["checkpoint_sha256"]
+    assert sorted(path.name for path in (REPO / "checkpoints").rglob("*.pth")) == sorted(
+        (checkpoint.name, p1_checkpoint.name)
+    )
     source = _source("11_raspberry_pi_benchmark.ipynb")
     assert "run_raspberry_pi_benchmark" in source
     assert source.index("prepare_raspberry_pi_publication()") < source.index("run_raspberry_pi_benchmark()")

@@ -26,6 +26,7 @@ P0_V4_EXPERIMENTS = {
     "P1_SOILNET_VICREG_MU27_NO_LI_BESTREG",
     "P1_SOILNET_IMAGENET_LI_NO_SSL_BESTREG",
     "P2_MOBILEVITV2_IMAGENET_LI_BESTREG",
+    "P3_MOBILEVITV2_VICREG_LI_BESTREG",
 }
 RUNNABLE_STATUSES = {
     "READY", "PROTOCOL_REVISED_PRE_TEST", "OPTIONAL_NOT_YET_REQUIRED", "OPTIONAL",
@@ -43,6 +44,7 @@ class ExperimentContext:
     split_sha256: str
     data_root: Path
     checkpoint_root: Path
+    run_artifact_root: Path
     run_dir: Path
 
 
@@ -113,11 +115,21 @@ def load_experiment_context(config_path: Path | str) -> ExperimentContext:
         raise RuntimeError(f"STOP: locked split counts changed: {counts}")
     ssl = config.get("ssl_checkpoint")
     if ssl:
-        if ssl.get("sha256") != LOCKED_SSL_SHA256:
-            raise RuntimeError("STOP: configured SSL SHA256 changed")
-        ssl_path = paths["checkpoint_root"] / ssl["relative_path"]
-        if not ssl_path.is_file() or sha256_file(ssl_path) != LOCKED_SSL_SHA256:
-            raise RuntimeError("STOP: selected SSL checkpoint missing or changed")
+        if config.get("architecture") == "SoilNet":
+            if ssl.get("sha256") != LOCKED_SSL_SHA256:
+                raise RuntimeError("STOP: configured SSL SHA256 changed")
+            ssl_path = paths["checkpoint_root"] / ssl["relative_path"]
+            if not ssl_path.is_file() or sha256_file(ssl_path) != LOCKED_SSL_SHA256:
+                raise RuntimeError("STOP: selected SSL checkpoint missing or changed")
+        elif config.get("experiment_id") == "P3_MOBILEVITV2_VICREG_LI_BESTREG":
+            if ssl.get("scope") != "RUN_ARTIFACT_ROOT":
+                raise RuntimeError("STOP: P3 SSL checkpoint must be scoped to RUN_ARTIFACT_ROOT")
+            ssl_path = run_root / ssl["relative_path"]
+            expected_ssl_sha = ssl.get("sha256")
+            if not expected_ssl_sha or not ssl_path.is_file() or sha256_file(ssl_path) != expected_ssl_sha:
+                raise RuntimeError("STOP: generated P3 VICReg encoder checkpoint missing or changed")
+        else:
+            raise RuntimeError("STOP: unsupported non-SoilNet SSL initialization")
     initialization_checkpoint = config.get("initialization_checkpoint")
     if initialization_checkpoint:
         if initialization_checkpoint.get("scope") != "DATA_ROOT":
@@ -137,5 +149,6 @@ def load_experiment_context(config_path: Path | str) -> ExperimentContext:
         config_path=path, config=config, config_sha256=sha256_file(path),
         manifest_path=manifest, manifest_sha256=manifest_sha,
         split_path=split, split_sha256=split_sha,
-        data_root=paths["data_root"], checkpoint_root=paths["checkpoint_root"], run_dir=run_dir,
+        data_root=paths["data_root"], checkpoint_root=paths["checkpoint_root"],
+        run_artifact_root=run_root, run_dir=run_dir,
     )

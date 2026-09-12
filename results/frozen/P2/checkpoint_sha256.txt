@@ -1,0 +1,2 @@
+validation_best_regression.pth  0a080d5129a2e57f1c2baf420b5af9aadf913fc0aab0d0050b6d662f24c28a8d
+epoch_60_final.pth  01a08763b07a057f1647d8f29d7e09a538db552939477db1843f167e4b6e00ff
